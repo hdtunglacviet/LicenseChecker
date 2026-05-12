@@ -1,0 +1,1523 @@
+[
+{
+    "id": "sql",
+    "name": "SQL Server",
+    "keywords": [
+      "sql server"
+    ],
+    "license": "Thương mại",
+    "category": "Quản trị CSDL",
+    "alt": "PostgreSQL",
+    "alt_url": "https://www.postgresql.org/",
+    "note": "Phần mềm Quản trị CSDL SQL Server",
+     "free_catalog": null
+  },
+  {
+      "id": "PostgreSQL",
+    "name": "PostgreSQL",
+    "keywords": [
+      "PostgreSQL"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Quản trị CSDL",
+    "alt": "",
+    "alt_url": "",
+    "note": "Phần mềm Quản trị CSDL PostgreSQL",
+     "free_catalog": {
+      "desc": "Phần mềm Quản trị CSDL phổ biến nhất",
+      "url": "https://www.postgresql.org/"
+    }
+  },
+  
+{
+    "id": "autocad",
+    "name": "Auto CAD",
+    "keywords": [
+      "autocad","autodesk"
+    ],
+    "license": "Thương mại",
+    "category": "Đồ họa",
+    "alt": "LibreCAD",
+    "alt_url": "https://librecad.org/",
+    "note": "Phần mềm bản vẽ xây dựng AutoCAD",
+     "free_catalog": null
+  },
+  {
+    "id": "google-chrome",
+    "name": "Google Chrome",
+    "keywords": [
+      "google chrome"
+    ],
+    "license": "Miễn phí",
+    "category": "Trình duyệt",
+    "alt": "",
+    "alt_url": "",
+    "note": "Trình duyệt phổ biến nhất – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Trình duyệt phổ biến nhất",
+      "url": "https://www.google.com/chrome/"
+    }
+  },
+  {
+    "id": "mozilla-firefox",
+    "name": "Mozilla Firefox",
+    "keywords": [
+      "mozilla firefox"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Trình duyệt",
+    "alt": "",
+    "alt_url": "",
+    "note": "Trình duyệt mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Trình duyệt mã nguồn mở, bảo mật cao",
+      "url": "https://www.mozilla.org/firefox/"
+    }
+  },
+  {
+    "id": "brave-browser",
+    "name": "Brave Browser",
+    "keywords": [
+      "brave browser",
+      "brave"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Trình duyệt",
+    "alt": "",
+    "alt_url": "",
+    "note": "Trình duyệt chặn quảng cáo mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Tự động chặn quảng cáo và tracker",
+      "url": "https://brave.com/download/"
+    }
+  },
+  {
+    "id": "cốc-cốc",
+    "name": "Cốc Cốc",
+    "keywords": [
+      "cốc cốc"
+    ],
+    "license": "Miễn phí",
+    "category": "Trình duyệt",
+    "alt": "",
+    "alt_url": "",
+    "note": "",
+    "free_catalog": {
+      "desc": "Trình duyệt Việt, hỗ trợ tải Torrent",
+      "url": "https://coccoc.com/"
+    }
+  },
+  {
+    "id": "opera",
+    "name": "Opera",
+    "keywords": [
+      "opera"
+    ],
+    "license": "Miễn phí",
+    "category": "Trình duyệt",
+    "alt": "",
+    "alt_url": "",
+    "note": "Trình duyệt có VPN tích hợp – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Trình duyệt có VPN tích hợp miễn phí",
+      "url": "https://www.opera.com/download"
+    }
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "keywords": [
+      "libreoffice"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Văn phòng",
+    "alt": "",
+    "alt_url": "",
+    "note": "Bộ Office miễn phí, mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Bộ Office hoàn chỉnh thay thế Microsoft Office",
+      "url": "https://www.libreoffice.org/download/"
+    }
+  },
+  {
+    "id": "onlyoffice-desktop",
+    "name": "OnlyOffice Desktop",
+    "keywords": [
+      "onlyoffice desktop",
+      "onlyoffice"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Văn phòng",
+    "alt": "",
+    "alt_url": "",
+    "note": "Bộ Office tương thích MS Office ✓",
+    "free_catalog": {
+      "desc": "Tương thích cao với file .docx .xlsx .pptx",
+      "url": "https://www.onlyoffice.com/download-desktop.aspx"
+    }
+  },
+  {
+    "id": "wps-office-(free)",
+    "name": "WPS Office (Free)",
+    "keywords": [
+      "wps office (free)",
+      "wps office"
+    ],
+    "license": "Freemium",
+    "category": "Văn phòng",
+    "alt": "LibreOffice",
+    "alt_url": "https://www.libreoffice.org/",
+    "note": "Miễn phí có quảng cáo – bản Pro tốn phí",
+    "free_catalog": {
+      "desc": "Giao diện giống MS Office, bản miễn phí",
+      "url": "https://www.wps.com/"
+    }
+  },
+  {
+    "id": "notepad++",
+    "name": "Notepad++",
+    "keywords": [
+      "notepad++"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Văn phòng",
+    "alt": "",
+    "alt_url": "",
+    "note": "Trình soạn thảo mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Trình soạn thảo code và văn bản nhẹ",
+      "url": "https://notepad-plus-plus.org/downloads/"
+    }
+  },
+  {
+    "id": "pdf24-creator",
+    "name": "PDF24 Creator",
+    "keywords": [
+      "pdf24 creator",
+      "pdf24"
+    ],
+    "license": "Miễn phí",
+    "category": "Văn phòng",
+    "alt": "",
+    "alt_url": "",
+    "note": "Công cụ PDF miễn phí ✓",
+    "free_catalog": {
+      "desc": "Tạo, ghép, chia, nén PDF – miễn phí",
+      "url": "https://tools.pdf24.org/"
+    }
+  },
+  {
+    "id": "foxit-pdf-reader",
+    "name": "Foxit PDF Reader",
+    "keywords": [
+      "foxit pdf reader",
+      "foxit"
+    ],
+    "license": "Freemium",
+    "category": "Văn phòng",
+    "alt": "PDF24 Creator",
+    "alt_url": "https://tools.pdf24.org/",
+    "note": "Đọc PDF miễn phí, chỉnh sửa PDF cần Pro",
+    "free_catalog": {
+      "desc": "Đọc PDF nhanh, nhẹ hơn Adobe Reader",
+      "url": "https://www.foxit.com/pdf-reader/"
+    }
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP",
+    "keywords": [
+      "gimp"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Đồ họa",
+    "alt": "",
+    "alt_url": "",
+    "note": "Chỉnh sửa ảnh mã nguồn mở – thay Photoshop ✓",
+    "free_catalog": {
+      "desc": "Chỉnh sửa ảnh chuyên nghiệp thay Photoshop",
+      "url": "https://www.gimp.org/downloads/"
+    }
+  },
+  {
+    "id": "inkscape",
+    "name": "Inkscape",
+    "keywords": [
+      "inkscape"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Đồ họa",
+    "alt": "",
+    "alt_url": "",
+    "note": "Đồ họa vector mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Đồ họa vector thay thế Illustrator",
+      "url": "https://inkscape.org/release/"
+    }
+  },
+  {
+    "id": "krita",
+    "name": "Krita",
+    "keywords": [
+      "krita"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Đồ họa",
+    "alt": "",
+    "alt_url": "",
+    "note": "Vẽ kỹ thuật số mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Vẽ kỹ thuật số, minh họa chuyên nghiệp",
+      "url": "https://krita.org/en/download/"
+    }
+  },
+  {
+    "id": "paintnet",
+    "name": "Paint.NET",
+    "keywords": [
+      "paint.net"
+    ],
+    "license": "Miễn phí",
+    "category": "Đồ họa",
+    "alt": "",
+    "alt_url": "",
+    "note": "Chỉnh ảnh đơn giản miễn phí ✓",
+    "free_catalog": {
+      "desc": "Chỉnh ảnh đơn giản, nhẹ hơn GIMP",
+      "url": "https://www.getpaint.net/download.html"
+    }
+  },
+  {
+    "id": "darktable",
+    "name": "darktable",
+    "keywords": [
+      "darktable"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Đồ họa",
+    "alt": "",
+    "alt_url": "",
+    "note": "",
+    "free_catalog": {
+      "desc": "Xử lý ảnh RAW thay Adobe Lightroom",
+      "url": "https://www.darktable.org/install/"
+    }
+  },
+  {
+    "id": "vlc-media-player",
+    "name": "VLC Media Player",
+    "keywords": [
+      "vlc media player"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Đa phương tiện",
+    "alt": "",
+    "alt_url": "",
+    "note": "Xem phim mã nguồn mở – hỗ trợ mọi định dạng ✓",
+    "free_catalog": {
+      "desc": "Xem phim mọi định dạng – nhẹ và ổn định",
+      "url": "https://www.videolan.org/vlc/"
+    }
+  },
+  {
+    "id": "obs-studio",
+    "name": "OBS Studio",
+    "keywords": [
+      "obs studio"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Đa phương tiện",
+    "alt": "",
+    "alt_url": "",
+    "note": "Quay màn hình / livestream mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Quay màn hình và livestream chuyên nghiệp",
+      "url": "https://obsproject.com/download"
+    }
+  },
+  {
+    "id": "audacity",
+    "name": "Audacity",
+    "keywords": [
+      "audacity"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Đa phương tiện",
+    "alt": "",
+    "alt_url": "",
+    "note": "Chỉnh sửa âm thanh mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Chỉnh sửa âm thanh, thu âm đa rãnh",
+      "url": "https://www.audacityteam.org/download/"
+    }
+  },
+  {
+    "id": "handbrake",
+    "name": "HandBrake",
+    "keywords": [
+      "handbrake"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Đa phương tiện",
+    "alt": "",
+    "alt_url": "",
+    "note": "Chuyển đổi định dạng video mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Chuyển đổi và nén video",
+      "url": "https://handbrake.fr/downloads.php"
+    }
+  },
+  {
+    "id": "davinci-resolve-(free)",
+    "name": "DaVinci Resolve (Free)",
+    "keywords": [
+      "davinci resolve (free)",
+      "davinci resolve"
+    ],
+    "license": "Miễn phí",
+    "category": "Đa phương tiện",
+    "alt": "",
+    "alt_url": "",
+    "note": "Dựng phim chuyên nghiệp – bản Free đủ dùng ✓",
+    "free_catalog": {
+      "desc": "Dựng phim chuyên nghiệp không cần trả phí",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve"
+    }
+  },
+  {
+    "id": "7-zip",
+    "name": "7-Zip",
+    "keywords": [
+      "7-zip"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Nén/giải nén file mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Nén/giải nén file tỉ lệ cao nhất",
+      "url": "https://www.7-zip.org/download.html"
+    }
+  },
+  {
+    "id": "everything",
+    "name": "Everything",
+    "keywords": [
+      "everything"
+    ],
+    "license": "Miễn phí",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Tìm kiếm file siêu tốc – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Tìm kiếm file tức thì, siêu tốc",
+      "url": "https://www.voidtools.com/downloads/"
+    }
+  },
+  {
+    "id": "bleachbit",
+    "name": "BleachBit",
+    "keywords": [
+      "bleachbit"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Dọn rác mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Dọn rác hệ thống mã nguồn mở thay CCleaner",
+      "url": "https://www.bleachbit.org/download"
+    }
+  },
+  {
+    "id": "rufus",
+    "name": "Rufus",
+    "keywords": [
+      "rufus"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Tạo USB Boot mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Tạo USB Boot cài Windows / Linux",
+      "url": "https://rufus.ie/downloads/"
+    }
+  },
+  {
+    "id": "cpu-z",
+    "name": "CPU-Z",
+    "keywords": [
+      "cpu-z"
+    ],
+    "license": "Miễn phí",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Xem thông tin CPU – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Xem thông tin CPU, RAM, bo mạch chủ",
+      "url": "https://www.cpuid.com/softwares/cpu-z.html"
+    }
+  },
+  {
+    "id": "gpu-z",
+    "name": "GPU-Z",
+    "keywords": [
+      "gpu-z"
+    ],
+    "license": "Miễn phí",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Xem thông tin GPU – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Xem thông tin card đồ họa chi tiết",
+      "url": "https://www.techpowerup.com/gpuz/"
+    }
+  },
+  {
+    "id": "crystaldiskinfo",
+    "name": "CrystalDiskInfo",
+    "keywords": [
+      "crystaldiskinfo"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Kiểm tra sức khỏe ổ cứng mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Kiểm tra sức khỏe ổ cứng HDD/SSD",
+      "url": "https://crystalmark.info/en/software/crystaldiskinfo/"
+    }
+  },
+  {
+    "id": "sharex",
+    "name": "ShareX",
+    "keywords": [
+      "sharex"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Chụp màn hình chuyên nghiệp mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Chụp màn hình và chia sẻ chuyên nghiệp",
+      "url": "https://getsharex.com/"
+    }
+  },
+  {
+    "id": "autohotkey",
+    "name": "AutoHotkey",
+    "keywords": [
+      "autohotkey"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Tự động hóa bàn phím/chuột mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Tự động hóa thao tác bàn phím/chuột",
+      "url": "https://www.autohotkey.com/download/"
+    }
+  },
+  {
+    "id": "keepassxc",
+    "name": "KeePassXC",
+    "keywords": [
+      "keepassxc"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Bảo mật",
+    "alt": "",
+    "alt_url": "",
+    "note": "Quản lý mật khẩu mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Lưu trữ mật khẩu an toàn, mã hóa AES",
+      "url": "https://keepassxc.org/download/"
+    }
+  },
+  {
+    "id": "macrium-reflect-free",
+    "name": "Macrium Reflect Free",
+    "keywords": [
+      "macrium reflect free",
+      "macrium reflect"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Sao lưu ổ cứng – bản Free đủ dùng cơ bản",
+    "free_catalog": {
+      "desc": "Sao lưu và khôi phục ổ cứng miễn phí",
+      "url": "https://www.macrium.com/reflectfree.aspx"
+    }
+  },
+  {
+    "id": "malwarebytes-free",
+    "name": "Malwarebytes Free",
+    "keywords": [
+      "malwarebytes free",
+      "malwarebytes"
+    ],
+    "license": "Freemium",
+    "category": "Bảo mật",
+    "alt": "",
+    "alt_url": "",
+    "note": "Diệt Malware – bản Free quét thủ công, Premium tự động",
+    "free_catalog": {
+      "desc": "Diệt Malware, spyware hiệu quả",
+      "url": "https://www.malwarebytes.com/mwb-download"
+    }
+  },
+  {
+    "id": "rustdesk",
+    "name": "RustDesk",
+    "keywords": [
+      "rustdesk"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Bảo mật",
+    "alt": "",
+    "alt_url": "",
+    "note": "Điều khiển từ xa tự host mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Điều khiển từ xa tự host, thay TeamViewer",
+      "url": "https://rustdesk.com/"
+    }
+  },
+  {
+    "id": "bitwarden",
+    "name": "Bitwarden",
+    "keywords": [
+      "bitwarden"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Bảo mật",
+    "alt": "",
+    "alt_url": "",
+    "note": "",
+    "free_catalog": {
+      "desc": "Quản lý mật khẩu cloud, mã nguồn mở",
+      "url": "https://bitwarden.com/download/"
+    }
+  },
+  {
+    "id": "telegram-desktop",
+    "name": "Telegram Desktop",
+    "keywords": [
+      "telegram desktop",
+      "telegram"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Liên lạc",
+    "alt": "",
+    "alt_url": "",
+    "note": "Nhắn tin bảo mật mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Nhắn tin bảo mật cao, mã nguồn mở",
+      "url": "https://desktop.telegram.org/"
+    }
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "keywords": [
+      "discord"
+    ],
+    "license": "Miễn phí",
+    "category": "Liên lạc",
+    "alt": "",
+    "alt_url": "",
+    "note": "Chat nhóm / gọi video – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Chat nhóm, gọi video, chia sẻ màn hình",
+      "url": "https://discord.com/download"
+    }
+  },
+  {
+    "id": "zalo-pc",
+    "name": "Zalo PC",
+    "keywords": [
+      "zalo pc",
+      "zalo"
+    ],
+    "license": "Miễn phí",
+    "category": "Liên lạc",
+    "alt": "",
+    "alt_url": "",
+    "note": "Chat Việt Nam – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Ứng dụng Zalo trên máy tính",
+      "url": "https://zalo.me/pc"
+    }
+  },
+  {
+    "id": "skype",
+    "name": "Skype",
+    "keywords": [
+      "skype"
+    ],
+    "license": "Miễn phí",
+    "category": "Liên lạc",
+    "alt": "",
+    "alt_url": "",
+    "note": "Gọi video quốc tế – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Gọi video quốc tế miễn phí",
+      "url": "https://www.skype.com/en/get-skype/"
+    }
+  },
+  {
+    "id": "vs-code",
+    "name": "VS Code",
+    "keywords": [
+      "vs code"
+    ],
+    "license": "Miễn phí",
+    "category": "Lập trình",
+    "alt": "",
+    "alt_url": "",
+    "note": "",
+    "free_catalog": {
+      "desc": "IDE đa năng phổ biến nhất hiện nay",
+      "url": "https://code.visualstudio.com/download"
+    }
+  },
+  {
+    "id": "git-for-windows",
+    "name": "Git for Windows",
+    "keywords": [
+      "git for windows"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Lập trình",
+    "alt": "",
+    "alt_url": "",
+    "note": "Quản lý phiên bản mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Quản lý phiên bản mã nguồn trên Windows",
+      "url": "https://git-scm.com/download/win"
+    }
+  },
+  {
+    "id": "python-3",
+    "name": "Python 3",
+    "keywords": [
+      "python 3",
+      "python"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Lập trình",
+    "alt": "",
+    "alt_url": "",
+    "note": "Ngôn ngữ lập trình mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Ngôn ngữ lập trình đa năng, dễ học",
+      "url": "https://www.python.org/downloads/"
+    }
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "keywords": [
+      "node.js"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Lập trình",
+    "alt": "",
+    "alt_url": "",
+    "note": "Runtime JavaScript mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Runtime JavaScript cho backend",
+      "url": "https://nodejs.org/en/download/"
+    }
+  },
+  {
+    "id": "unikey",
+    "name": "Unikey",
+    "keywords": [
+      "unikey",
+      "unikey 4.3 rc5"
+    ],
+    "license": "Miễn phí",
+    "category": "Hệ thống",
+    "alt": "",
+    "alt_url": "",
+    "note": "Bộ gõ tiếng Việt phổ biến – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Bộ gõ tiếng Việt phổ biến nhất",
+      "url": "https://www.unikey.org/download.html"
+    }
+  },
+  {
+    "id": "evkey",
+    "name": "EVKey",
+    "keywords": [
+      "evkey"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Hệ thống",
+    "alt": "",
+    "alt_url": "",
+    "note": "Bộ gõ tiếng Việt mã nguồn mở ✓",
+    "free_catalog": {
+      "desc": "Bộ gõ tiếng Việt mã nguồn mở, không quảng cáo",
+      "url": "https://evkeyvn.com/"
+    }
+  },
+  {
+    "id": "hwinfo64",
+    "name": "HWiNFO64",
+    "keywords": [
+      "hwinfo64"
+    ],
+    "license": "Miễn phí",
+    "category": "Hệ thống",
+    "alt": "",
+    "alt_url": "",
+    "note": "",
+    "free_catalog": {
+      "desc": "Xem thông tin phần cứng chi tiết",
+      "url": "https://www.hwinfo.com/download/"
+    }
+  },
+  {
+    "id": "microsoft-office",
+    "name": "Microsoft Office",
+    "keywords": [
+      "microsoft office"
+    ],
+    "license": "Thương mại",
+    "category": "Văn phòng",
+    "alt": "LibreOffice",
+    "alt_url": "https://www.libreoffice.org/download/",
+    "note": "Bộ Office đầy đủ – cần mua bản quyền hoặc Microsoft 365",
+    "free_catalog": null
+  },
+  {
+    "id": "microsoft-word",
+    "name": "Microsoft Word",
+    "keywords": [
+      "microsoft word"
+    ],
+    "license": "Thương mại",
+    "category": "Văn phòng",
+    "alt": "LibreOffice Writer",
+    "alt_url": "https://www.libreoffice.org/download/",
+    "note": "Soạn thảo văn bản – cần bản quyền Office",
+    "free_catalog": null
+  },
+  {
+    "id": "microsoft-excel",
+    "name": "Microsoft Excel",
+    "keywords": [
+      "microsoft excel"
+    ],
+    "license": "Thương mại",
+    "category": "Văn phòng",
+    "alt": "LibreOffice Calc",
+    "alt_url": "https://www.libreoffice.org/download/",
+    "note": "Bảng tính – cần bản quyền Office",
+    "free_catalog": null
+  },
+  {
+    "id": "microsoft-powerpoint",
+    "name": "Microsoft Powerpoint",
+    "keywords": [
+      "microsoft powerpoint"
+    ],
+    "license": "Thương mại",
+    "category": "Văn phòng",
+    "alt": "LibreOffice Impress",
+    "alt_url": "https://www.libreoffice.org/download/",
+    "note": "Trình chiếu – cần bản quyền Office",
+    "free_catalog": null
+  },
+  {
+    "id": "microsoft-outlook",
+    "name": "Microsoft Outlook",
+    "keywords": [
+      "microsoft outlook"
+    ],
+    "license": "Thương mại",
+    "category": "Văn phòng",
+    "alt": "Mozilla Thunderbird",
+    "alt_url": "https://www.thunderbird.net/",
+    "note": "Email client – cần bản quyền Office",
+    "free_catalog": null
+  },
+  {
+    "id": "microsoft-access",
+    "name": "Microsoft Access",
+    "keywords": [
+      "microsoft access"
+    ],
+    "license": "Thương mại",
+    "category": "Văn phòng",
+    "alt": "LibreOffice Base",
+    "alt_url": "https://www.libreoffice.org/",
+    "note": "Cơ sở dữ liệu – cần bản quyền Office",
+    "free_catalog": null
+  },
+  {
+    "id": "adobe-acrobat",
+    "name": "Adobe Acrobat",
+    "keywords": [
+      "adobe acrobat"
+    ],
+    "license": "Thương mại",
+    "category": "Văn phòng",
+    "alt": "PDF24 Creator",
+    "alt_url": "https://tools.pdf24.org/",
+    "note": "Đọc/chỉnh sửa PDF – cần đăng ký Adobe",
+    "free_catalog": null
+  },
+  {
+    "id": "adobe-photoshop",
+    "name": "Adobe Photoshop",
+    "keywords": [
+      "adobe photoshop"
+    ],
+    "license": "Thương mại",
+    "category": "Đồ họa",
+    "alt": "GIMP",
+    "alt_url": "https://www.gimp.org/downloads/",
+    "note": "Chỉnh sửa ảnh – cần đăng ký Adobe CC",
+    "free_catalog": null
+  },
+  {
+    "id": "adobe-illustrator",
+    "name": "Adobe Illustrator",
+    "keywords": [
+      "adobe illustrator"
+    ],
+    "license": "Thương mại",
+    "category": "Đồ họa",
+    "alt": "Inkscape",
+    "alt_url": "https://inkscape.org/release/",
+    "note": "Đồ họa vector – cần đăng ký Adobe CC",
+    "free_catalog": null
+  },
+  {
+    "id": "adobe-premiere",
+    "name": "Adobe Premiere",
+    "keywords": [
+      "adobe premiere"
+    ],
+    "license": "Thương mại",
+    "category": "Đa phương tiện",
+    "alt": "DaVinci Resolve (Free)",
+    "alt_url": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "note": "Dựng phim – cần đăng ký Adobe CC",
+    "free_catalog": null
+  },
+  {
+    "id": "adobe-after-effects",
+    "name": "Adobe After Effects",
+    "keywords": [
+      "adobe after effects",
+      "effect"
+    ],
+    "license": "Thương mại",
+    "category": "Đa phương tiện",
+    "alt": "DaVinci Resolve Fusion",
+    "alt_url": "https://www.blackmagicdesign.com/",
+    "note": "Motion graphics – cần đăng ký Adobe CC",
+    "free_catalog": null
+  },
+  {
+    "id": "adobe-lightroom",
+    "name": "Adobe Lightroom",
+    "keywords": [
+      "adobe lightroom"
+    ],
+    "license": "Thương mại",
+    "category": "Đồ họa",
+    "alt": "darktable",
+    "alt_url": "https://www.darktable.org/",
+    "note": "Xử lý ảnh RAW – cần đăng ký Adobe CC",
+    "free_catalog": null
+  },
+  {
+    "id": "coreldraw",
+    "name": "Coreldraw",
+    "keywords": [
+      "coreldraw"
+    ],
+    "license": "Thương mại",
+    "category": "Đồ họa",
+    "alt": "Inkscape",
+    "alt_url": "https://inkscape.org/release/",
+    "note": "Đồ họa vector – cần mua bản quyền",
+    "free_catalog": null
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "keywords": [
+      "canva"
+    ],
+    "license": "Freemium",
+    "category": "Đồ họa",
+    "alt": "",
+    "alt_url": "",
+    "note": "Miễn phí cơ bản – tính năng nâng cao tốn phí",
+    "free_catalog": null
+  },
+  {
+    "id": "visual-studio-code",
+    "name": "Visual Studio Code",
+    "keywords": [
+      "visual studio code"
+    ],
+    "license": "Miễn phí",
+    "category": "Lập trình",
+    "alt": "",
+    "alt_url": "",
+    "note": "IDE phổ biến của Microsoft – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "visual-studio-20",
+    "name": "Visual Studio 20",
+    "keywords": [
+      "visual studio 20"
+    ],
+    "license": "Freemium",
+    "category": "Lập trình",
+    "alt": "VS Code",
+    "alt_url": "https://code.visualstudio.com/",
+    "note": "Community miễn phí – Enterprise tốn phí",
+    "free_catalog": null
+  },
+  {
+    "id": "pycharm",
+    "name": "Pycharm",
+    "keywords": [
+      "pycharm"
+    ],
+    "license": "Freemium",
+    "category": "Lập trình",
+    "alt": "VS Code + Python",
+    "alt_url": "https://code.visualstudio.com/",
+    "note": "Community miễn phí – Professional tốn phí",
+    "free_catalog": null
+  },
+  {
+    "id": "intellij",
+    "name": "Intellij",
+    "keywords": [
+      "intellij"
+    ],
+    "license": "Freemium",
+    "category": "Lập trình",
+    "alt": "VS Code",
+    "alt_url": "https://code.visualstudio.com/",
+    "note": "Community miễn phí – Ultimate tốn phí",
+    "free_catalog": null
+  },
+  {
+    "id": "sublime-text",
+    "name": "Sublime Text",
+    "keywords": [
+      "sublime text"
+    ],
+    "license": "Dùng thử",
+    "category": "Lập trình",
+    "alt": "VS Code / Notepad++",
+    "alt_url": "https://code.visualstudio.com/",
+    "note": "Dùng thử miễn phí – cần mua để dùng lâu dài",
+    "free_catalog": null
+  },
+  {
+    "id": "xampp",
+    "name": "Xampp",
+    "keywords": [
+      "xampp"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Lập trình",
+    "alt": "",
+    "alt_url": "",
+    "note": "Web server tổng hợp mã nguồn mở ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "winrar",
+    "name": "Winrar",
+    "keywords": [
+      "winrar"
+    ],
+    "license": "Dùng thử",
+    "category": "Tiện ích",
+    "alt": "7-Zip",
+    "alt_url": "https://www.7-zip.org/download.html",
+    "note": "Nén file – cần mua bản quyền cho mục đích thương mại",
+    "free_catalog": null
+  },
+  {
+    "id": "ccleaner",
+    "name": "Ccleaner",
+    "keywords": [
+      "ccleaner"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "BleachBit",
+    "alt_url": "https://www.bleachbit.org/download",
+    "note": "Dọn rác – bản Pro tốn phí",
+    "free_catalog": null
+  },
+  {
+    "id": "teamviewer",
+    "name": "Teamviewer",
+    "keywords": [
+      "teamviewer"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "RustDesk",
+    "alt_url": "https://rustdesk.com/",
+    "note": "Điều khiển từ xa – bản thương mại cần mua",
+    "free_catalog": null
+  },
+  {
+    "id": "anydesk",
+    "name": "Anydesk",
+    "keywords": [
+      "anydesk"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "RustDesk",
+    "alt_url": "https://rustdesk.com/",
+    "note": "Điều khiển từ xa – bản thương mại cần mua",
+    "free_catalog": null
+  },
+  {
+    "id": "ultraviewer",
+    "name": "Ultraviewer",
+    "keywords": [
+      "ultraviewer"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "RustDesk",
+    "alt_url": "https://rustdesk.com/",
+    "note": "Điều khiển từ xa Việt Nam – bản Pro tốn phí",
+    "free_catalog": null
+  },
+  {
+    "id": "hwmonitor",
+    "name": "Hwmonitor",
+    "keywords": [
+      "hwmonitor"
+    ],
+    "license": "Miễn phí",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Xem nhiệt độ máy – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "speccy",
+    "name": "Speccy",
+    "keywords": [
+      "speccy"
+    ],
+    "license": "Miễn phí",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Xem cấu hình máy – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "crystaldiskmark",
+    "name": "Crystaldiskmark",
+    "keywords": [
+      "crystaldiskmark"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Tiện ích",
+    "alt": "",
+    "alt_url": "",
+    "note": "Test tốc độ ổ cứng mã nguồn mở ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "hard-disk-sentinel",
+    "name": "Hard Disk Sentinel",
+    "keywords": [
+      "hard disk sentinel"
+    ],
+    "license": "Dùng thử",
+    "category": "Tiện ích",
+    "alt": "CrystalDiskInfo",
+    "alt_url": "https://crystalmark.info/en/software/crystaldiskinfo/",
+    "note": "Giám sát ổ cứng – bản đầy đủ cần mua",
+    "free_catalog": null
+  },
+  {
+    "id": "minitool-partition-wizard",
+    "name": "Minitool Partition Wizard",
+    "keywords": [
+      "minitool partition wizard"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "GParted Live",
+    "alt_url": "https://gparted.org/livecd.php",
+    "note": "Quản lý phân vùng – tính năng cao cần mua",
+    "free_catalog": null
+  },
+  {
+    "id": "aomei-partition-assistant",
+    "name": "Aomei Partition Assistant",
+    "keywords": [
+      "aomei partition assistant"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "GParted Live",
+    "alt_url": "https://gparted.org/livecd.php",
+    "note": "Quản lý phân vùng – tính năng cao cần mua",
+    "free_catalog": null
+  },
+  {
+    "id": "aomei-backupper",
+    "name": "Aomei Backupper",
+    "keywords": [
+      "aomei backupper"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "Macrium Reflect Free",
+    "alt_url": "https://www.macrium.com/reflectfree.aspx",
+    "note": "Sao lưu dữ liệu – tính năng nâng cao cần mua",
+    "free_catalog": null
+  },
+  {
+    "id": "easeus-partition-master",
+    "name": "Easeus Partition Master",
+    "keywords": [
+      "easeus partition master"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "GParted Live",
+    "alt_url": "https://gparted.org/livecd.php",
+    "note": "Chia ổ cứng – tính năng cao cần mua",
+    "free_catalog": null
+  },
+  {
+    "id": "kaspersky",
+    "name": "Kaspersky",
+    "keywords": [
+      "kaspersky"
+    ],
+    "license": "Thương mại",
+    "category": "Bảo mật",
+    "alt": "Windows Defender + Malwarebytes",
+    "alt_url": "https://www.malwarebytes.com/",
+    "note": "Diệt virus – cần mua bản quyền hàng năm",
+    "free_catalog": null
+  },
+  {
+    "id": "bitdefender",
+    "name": "Bitdefender",
+    "keywords": [
+      "bitdefender"
+    ],
+    "license": "Thương mại",
+    "category": "Bảo mật",
+    "alt": "Windows Defender",
+    "alt_url": "",
+    "note": "Diệt virus – cần mua bản quyền",
+    "free_catalog": null
+  },
+  {
+    "id": "mcafee",
+    "name": "Mcafee",
+    "keywords": [
+      "mcafee"
+    ],
+    "license": "Thương mại",
+    "category": "Bảo mật",
+    "alt": "Windows Defender",
+    "alt_url": "",
+    "note": "Diệt virus – cần mua bản quyền",
+    "free_catalog": null
+  },
+  {
+    "id": "norton",
+    "name": "Norton",
+    "keywords": [
+      "norton"
+    ],
+    "license": "Thương mại",
+    "category": "Bảo mật",
+    "alt": "Windows Defender",
+    "alt_url": "",
+    "note": "Diệt virus – cần mua bản quyền",
+    "free_catalog": null
+  },
+  {
+    "id": "eset",
+    "name": "Eset",
+    "keywords": [
+      "eset",
+      "eset av remover"
+    ],
+    "license": "Miễn phí",
+    "category": "Bảo mật",
+    "alt": "Malwarebytes Free",
+    "alt_url": "https://www.malwarebytes.com/",
+    "note": "Diệt virus – cần mua bản quyền",
+    "free_catalog": null
+  },
+  {
+    "id": "avast",
+    "name": "Avast",
+    "keywords": [
+      "avast"
+    ],
+    "license": "Freemium",
+    "category": "Bảo mật",
+    "alt": "Windows Defender",
+    "alt_url": "",
+    "note": "Bản Free có quảng cáo – bản Pro tốn phí",
+    "free_catalog": null
+  },
+  {
+    "id": "avg-antivirus",
+    "name": "Avg Antivirus",
+    "keywords": [
+      "avg antivirus"
+    ],
+    "license": "Freemium",
+    "category": "Bảo mật",
+    "alt": "Windows Defender",
+    "alt_url": "",
+    "note": "Bản Free cơ bản – bản Pro tốn phí",
+    "free_catalog": null
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "keywords": [
+      "spotify"
+    ],
+    "license": "Freemium",
+    "category": "Đa phương tiện",
+    "alt": "",
+    "alt_url": "",
+    "note": "Nghe nhạc – bản Free có quảng cáo",
+    "free_catalog": null
+  },
+  {
+    "id": "winamp",
+    "name": "Winamp",
+    "keywords": [
+      "winamp"
+    ],
+    "license": "Miễn phí",
+    "category": "Đa phương tiện",
+    "alt": "",
+    "alt_url": "",
+    "note": "Nghe nhạc – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "microsoft-edge",
+    "name": "Microsoft Edge",
+    "keywords": [
+      "microsoft edge"
+    ],
+    "license": "Miễn phí",
+    "category": "Trình duyệt",
+    "alt": "",
+    "alt_url": "",
+    "note": "Tích hợp Windows – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "coc-coc",
+    "name": "Coc Coc",
+    "keywords": [
+      "coc coc"
+    ],
+    "license": "Miễn phí",
+    "category": "Trình duyệt",
+    "alt": "",
+    "alt_url": "",
+    "note": "Trình duyệt Việt Nam – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom",
+    "keywords": [
+      "zoom"
+    ],
+    "license": "Freemium",
+    "category": "Liên lạc",
+    "alt": "Jitsi Meet",
+    "alt_url": "https://meet.jit.si/",
+    "note": "Họp online – bản Free giới hạn 40 phút",
+    "free_catalog": null
+  },
+  {
+    "id": "microsoft-teams",
+    "name": "Microsoft Teams",
+    "keywords": [
+      "microsoft teams"
+    ],
+    "license": "Freemium",
+    "category": "Liên lạc",
+    "alt": "",
+    "alt_url": "",
+    "note": "Bản Free cơ bản – đầy đủ cần Microsoft 365",
+    "free_catalog": null
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "keywords": [
+      "slack"
+    ],
+    "license": "Freemium",
+    "category": "Liên lạc",
+    "alt": "Mattermost (OSS)",
+    "alt_url": "https://mattermost.com/download/",
+    "note": "Nhắn tin nhóm – bản Free giới hạn lịch sử",
+    "free_catalog": null
+  },
+  {
+    "id": "misa",
+    "name": "Misa",
+    "keywords": [
+      "misa"
+    ],
+    "license": "Thương mại",
+    "category": "Kế toán",
+    "alt": "GnuCash",
+    "alt_url": "https://gnucash.org/",
+    "note": "Phần mềm kế toán Việt Nam – cần mua bản quyền",
+    "free_catalog": null
+  },
+  {
+    "id": "fast-accounting",
+    "name": "Fast Accounting",
+    "keywords": [
+      "fast accounting"
+    ],
+    "license": "Thương mại",
+    "category": "Kế toán",
+    "alt": "GnuCash",
+    "alt_url": "https://gnucash.org/",
+    "note": "Phần mềm kế toán – cần mua bản quyền",
+    "free_catalog": null
+  },
+  {
+    "id": "bravo",
+    "name": "Bravo",
+    "keywords": [
+      "bravo"
+    ],
+    "license": "Thương mại",
+    "category": "Kế toán",
+    "alt": "",
+    "alt_url": "",
+    "note": "Phần mềm ERP/Kế toán – cần mua bản quyền",
+    "free_catalog": null
+  },
+  {
+    "id": "gnucash",
+    "name": "Gnucash",
+    "keywords": [
+      "gnucash"
+    ],
+    "license": "Mã nguồn mở",
+    "category": "Kế toán",
+    "alt": "",
+    "alt_url": "",
+    "note": "Phần mềm kế toán mã nguồn mở ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "directx",
+    "name": "Directx",
+    "keywords": [
+      "directx"
+    ],
+    "license": "Miễn phí",
+    "category": "Hệ thống",
+    "alt": "",
+    "alt_url": "",
+    "note": "Hỗ trợ đồ họa Windows – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "visual-c++",
+    "name": "Visual C++",
+    "keywords": [
+      "visual c++"
+    ],
+    "license": "Miễn phí",
+    "category": "Hệ thống",
+    "alt": "",
+    "alt_url": "",
+    "note": "Thư viện Visual C++ – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "net-framework",
+    "name": ".Net Framework",
+    "keywords": [
+      ".net framework"
+    ],
+    "license": "Miễn phí",
+    "category": "Hệ thống",
+    "alt": "",
+    "alt_url": "",
+    "note": "Nền tảng .NET Windows – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "microsoft-net",
+    "name": "Microsoft .Net",
+    "keywords": [
+      "microsoft .net"
+    ],
+    "license": "Miễn phí",
+    "category": "Hệ thống",
+    "alt": "",
+    "alt_url": "",
+    "note": "Runtime .NET – miễn phí ✓",
+    "free_catalog": null
+  },
+  {
+    "id": "ssd-life",
+    "name": "Ssd Life",
+    "keywords": [
+      "ssd life"
+    ],
+    "license": "Freemium",
+    "category": "Tiện ích",
+    "alt": "CrystalDiskInfo",
+    "alt_url": "https://crystalmark.info/en/software/crystaldiskinfo/",
+    "note": "Kiểm tra tuổi thọ SSD – bản Pro tốn phí",
+    "free_catalog": null
+  }
+]
