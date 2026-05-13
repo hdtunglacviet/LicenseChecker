@@ -414,6 +414,14 @@ cho mọi mục đích, kể cả thương mại.
 
 ---
 
+---
+
+## ☕ Ủng hộ (Support)
+Nếu bạn yêu thích dự án này, hãy ủng hộ mình một ly cà phê để duy trì dự án nhé! Cảm ơn bạn rất nhiều. ☕
+
+<img width="360" height="400" alt="VietQr-VCB" src="https://github.com/user-attachments/assets/8071fe61-67e4-4f59-9855-9075d1feb96f" />
+
+---
 <div align="center">
 
 **Được tạo ra với ❤️ bởi [Huỳnh Đức Tùng](https://github.com/HuynhDucTung)**
