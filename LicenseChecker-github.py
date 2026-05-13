@@ -62,9 +62,28 @@ LIC_UNKNOWN    = "Chưa rõ"
 ALL_LICENSES = [LIC_OSS, LIC_FREE, LIC_FREEMIUM, LIC_COMMERCIAL, LIC_TRIAL, LIC_UNKNOWN]
 
 ALL_CATEGORIES = [
-    "Văn phòng", "Đồ họa", "Lập trình", "Tiện ích", "Bảo mật",
-    "Đa phương tiện", "Trình duyệt", "Liên lạc", "Kế toán",
-    "Quản trị CSDL", "Hệ thống", "Khác"
+    "Ứng dụng văn phòng",
+    "Phần mềm Hệ thống",
+    "Thiết kế đồ họa",
+    "Chỉnh sửa ảnh",
+    "Phần mềm Video",
+    "Nghe nhạc",
+    "Trình duyệt",
+    "Chat & Gọi video",
+    "Bảo mật",
+    "Diệt Virus - Spyware",
+    "Phần mềm mạng",
+    "Hỗ trợ Download",
+    "Phần mềm lập trình",
+    "Quản lý Doanh nghiệp",
+    "Dữ liệu - File",
+    "Quản trị CSDL",
+    "Giáo dục - Học tập",
+    "Phần mềm cá nhân",
+    "Mạng xã hội",
+    "Quản lý Email",
+    "Drivers - Firmware",
+    "Khác",
 ]
 
 ROW_COLORS = {
@@ -231,7 +250,7 @@ class AddSoftwareDialog(tk.Toplevel):
                         font=("Segoe UI", 9), anchor="w")
 
     def _build(self, prefill_name):
-        pad = dict(padx=14, pady=4)
+        padx = 14   # chỉ padx chung; pady đặt riêng từng dòng
 
         # ── Tiêu đề ──
         hdr = tk.Frame(self, bg="#3C7FC0", height=36)
@@ -243,33 +262,33 @@ class AddSoftwareDialog(tk.Toplevel):
         body = tk.Frame(self, bg="#ECECEC"); body.pack(fill=tk.BOTH, expand=True)
 
         # ── Tên phần mềm ──
-        self._lbl(body, "Tên phần mềm *").pack(fill=tk.X, **pad)
+        self._lbl(body, "Tên phần mềm *").pack(fill=tk.X, padx=padx, pady=(10, 0))
         self.sv_name = tk.StringVar(value=prefill_name)
         ttk.Entry(body, textvariable=self.sv_name, width=60,
-                  font=("Segoe UI", 9)).pack(fill=tk.X, padx=14, pady=(0,2))
+                  font=("Segoe UI", 9)).pack(fill=tk.X, padx=padx, pady=(0, 2))
         tk.Label(body, text="  Ví dụ: Microsoft Word", bg="#ECECEC",
-                 fg="#888", font=("Segoe UI", 8)).pack(fill=tk.X, padx=14)
+                 fg="#888", font=("Segoe UI", 8)).pack(fill=tk.X, padx=padx)
 
         # ── Keywords ──
         self._lbl(body, "Từ khoá nhận dạng (keywords) *  –  cách nhau bởi dấu phẩy").pack(
-            fill=tk.X, **pad)
+            fill=tk.X, padx=padx, pady=(8, 0))
         # Tự điền keyword từ tên
         auto_kw = prefill_name.lower().strip() if prefill_name else ""
         self.sv_kw = tk.StringVar(value=auto_kw)
         ttk.Entry(body, textvariable=self.sv_kw, width=60,
-                  font=("Segoe UI", 9)).pack(fill=tk.X, padx=14, pady=(0,2))
+                  font=("Segoe UI", 9)).pack(fill=tk.X, padx=padx, pady=(0, 2))
         tk.Label(body, text="  Ví dụ: microsoft word, ms word, winword",
-                 bg="#ECECEC", fg="#888", font=("Segoe UI", 8)).pack(fill=tk.X, padx=14)
+                 bg="#ECECEC", fg="#888", font=("Segoe UI", 8)).pack(fill=tk.X, padx=padx)
 
         # ── Hàng license + category ──
-        row2 = tk.Frame(body, bg="#ECECEC"); row2.pack(fill=tk.X, padx=14, pady=(8,2))
+        row2 = tk.Frame(body, bg="#ECECEC"); row2.pack(fill=tk.X, padx=padx, pady=(8, 2))
 
         lc = tk.Frame(row2, bg="#ECECEC"); lc.pack(side=tk.LEFT, fill=tk.X, expand=True)
         self._lbl(lc, "Loại bản quyền *").pack(anchor="w")
         self.sv_lic = tk.StringVar(value=LIC_UNKNOWN)
         cb_lic = ttk.Combobox(lc, textvariable=self.sv_lic,
                                values=ALL_LICENSES, state="readonly", width=22)
-        cb_lic.pack(anchor="w", pady=(2,0))
+        cb_lic.pack(anchor="w", pady=(2, 0))
 
         tk.Frame(row2, bg="#ECECEC", width=16).pack(side=tk.LEFT)
 
@@ -278,34 +297,34 @@ class AddSoftwareDialog(tk.Toplevel):
         self.sv_cat = tk.StringVar(value="Khác")
         cb_cat = ttk.Combobox(cc, textvariable=self.sv_cat,
                                values=ALL_CATEGORIES, state="readonly", width=22)
-        cb_cat.pack(anchor="w", pady=(2,0))
+        cb_cat.pack(anchor="w", pady=(2, 0))
 
         # ── Phần mềm thay thế ──
         self._lbl(body, "Phần mềm thay thế miễn phí / OSS  (nếu có)").pack(
-            fill=tk.X, **pad)
+            fill=tk.X, padx=padx, pady=(8, 0))
         self.sv_alt = tk.StringVar()
-        ttk.Entry(body, textvariable=self.sv_alt, width=60).pack(fill=tk.X, padx=14, pady=(0,2))
+        ttk.Entry(body, textvariable=self.sv_alt, width=60).pack(fill=tk.X, padx=padx, pady=(0, 2))
         tk.Label(body, text="  Ví dụ: LibreOffice Writer",
-                 bg="#ECECEC", fg="#888", font=("Segoe UI", 8)).pack(fill=tk.X, padx=14)
+                 bg="#ECECEC", fg="#888", font=("Segoe UI", 8)).pack(fill=tk.X, padx=padx)
 
         # ── URL tải thay thế ──
         self._lbl(body, "Link tải phần mềm thay thế  (nếu có)").pack(
-            fill=tk.X, **pad)
+            fill=tk.X, padx=padx, pady=(8, 0))
         self.sv_url = tk.StringVar()
-        ttk.Entry(body, textvariable=self.sv_url, width=60).pack(fill=tk.X, padx=14, pady=(0,2))
+        ttk.Entry(body, textvariable=self.sv_url, width=60).pack(fill=tk.X, padx=padx, pady=(0, 2))
         tk.Label(body, text="  Ví dụ: https://www.libreoffice.org/download/",
-                 bg="#ECECEC", fg="#888", font=("Segoe UI", 8)).pack(fill=tk.X, padx=14)
+                 bg="#ECECEC", fg="#888", font=("Segoe UI", 8)).pack(fill=tk.X, padx=padx)
 
         # ── Ghi chú ──
-        self._lbl(body, "Ghi chú ngắn").pack(fill=tk.X, **pad)
+        self._lbl(body, "Ghi chú ngắn").pack(fill=tk.X, padx=padx, pady=(8, 0))
         self.sv_note = tk.StringVar()
-        ttk.Entry(body, textvariable=self.sv_note, width=60).pack(fill=tk.X, padx=14, pady=(0,4))
+        ttk.Entry(body, textvariable=self.sv_note, width=60).pack(fill=tk.X, padx=padx, pady=(0, 4))
 
         # ── Thông báo lỗi ──
         self.lbl_err = tk.Label(body, text="", bg="#FFFBE6", fg="#B03A2E",
                                  font=("Segoe UI", 8, "bold"), anchor="w",
                                  relief="flat", padx=8)
-        self.lbl_err.pack(fill=tk.X, padx=14, pady=(2,0))
+        self.lbl_err.pack(fill=tk.X, padx=padx, pady=(2, 0))
 
         # ── Nút hành động ──
         btn_frame = tk.Frame(self, bg="#D4D0C8", relief="sunken", bd=1)
@@ -610,9 +629,31 @@ class App(tk.Tk):
             tk.Label(leg, text=f"▌ {lic}", fg=col, bg="#ECECEC",
                      font=("Segoe UI", 8)).pack(side=tk.LEFT, padx=5)
 
-        self.cats1 = ["Tất cả", "Văn phòng", "Đồ họa", "Lập trình", "Tiện ích",
-                       "Bảo mật", "Đa phương tiện", "Trình duyệt", "Liên lạc",
-                       "Quản trị CSDL", "Hệ thống", "Khác"]
+        self.cats1 = [
+            "Tất cả",
+            "Ứng dụng văn phòng",
+            "Phần mềm Hệ thống",
+            "Thiết kế đồ họa",
+            "Chỉnh sửa ảnh",
+            "Phần mềm Video",
+            "Nghe nhạc",
+            "Trình duyệt",
+            "Chat & Gọi video",
+            "Bảo mật",
+            "Diệt Virus - Spyware",
+            "Phần mềm mạng",
+            "Hỗ trợ Download",
+            "Phần mềm lập trình",
+            "Quản lý Doanh nghiệp",
+            "Dữ liệu - File",
+            "Quản trị CSDL",
+            "Giáo dục - Học tập",
+            "Phần mềm cá nhân",
+            "Mạng xã hội",
+            "Quản lý Email",
+            "Drivers - Firmware",
+            "Khác",
+        ]
         self.cur_cat1 = "Tất cả"
         cf = ttk.Frame(f); cf.pack(fill=tk.X, padx=self.PAD, pady=2)
         self.cat_btns1 = {}
@@ -950,8 +991,30 @@ class App(tk.Tk):
                            "Nhấp đúp để mở web.  Tất cả đều miễn phí / mã nguồn mở.",
                   style="Small.TLabel", foreground="#5D6D7E").pack(side=tk.LEFT)
 
-        cats2 = ["Tất cả","Trình duyệt","Văn phòng","Đồ họa","Đa phương tiện",
-                  "Tiện ích","Bảo mật","Liên lạc","Lập trình","Hệ thống"]
+        cats2 = [
+            "Tất cả",
+            "Ứng dụng văn phòng",
+            "Phần mềm Hệ thống",
+            "Thiết kế đồ họa",
+            "Chỉnh sửa ảnh",
+            "Phần mềm Video",
+            "Nghe nhạc",
+            "Trình duyệt",
+            "Chat & Gọi video",
+            "Bảo mật",
+            "Diệt Virus - Spyware",
+            "Phần mềm mạng",
+            "Hỗ trợ Download",
+            "Phần mềm lập trình",
+            "Quản lý Doanh nghiệp",
+            "Dữ liệu - File",
+            "Quản trị CSDL",
+            "Giáo dục - Học tập",
+            "Phần mềm cá nhân",
+            "Mạng xã hội",
+            "Quản lý Email",
+            "Drivers - Firmware",
+        ]
         self.cur_cat2 = "Tất cả"
         cf = ttk.Frame(f); cf.pack(fill=tk.X, padx=self.PAD, pady=4)
         self.cat_btns2 = {}
