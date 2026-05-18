@@ -37,7 +37,7 @@ APP_TITLE = "Kiểm Tra Bản Quyền Phần Mềm - Huỳnh Đức Tùng"
 VERSION   = "1.2"
 
 # ── GitHub – chỉnh 2 dòng này cho đúng repo của bạn ──────
-GITHUB_USER       = "HuynhDucTung"          # ← đổi thành username GitHub
+GITHUB_USER       = "hdtunglacviet"          # ← đổi thành username GitHub
 GITHUB_REPO       = "LicenseChecker"         # ← đổi thành tên repo
 GITHUB_BRANCH     = "main"
 GITHUB_JSON_PATH  = "software_data.json"     # đường dẫn file trong repo
