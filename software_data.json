@@ -12,7 +12,8 @@
     "note": "Trình duyệt phổ biến nhất – miễn phí ✓",
     "free_catalog": {
       "desc": "Trình duyệt phổ biến nhất",
-      "url": "https://www.google.com/chrome/"
+      "url": "https://www.google.com/chrome/",
+      "winget_id": "Google.Chrome"
     }
   },
   {
@@ -29,7 +30,8 @@
     "note": "Trình duyệt mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Trình duyệt bảo mật mã nguồn mở",
-      "url": "https://www.mozilla.org/firefox/"
+      "url": "https://www.mozilla.org/firefox/",
+      "winget_id": "Mozilla.Firefox"
     }
   },
   {
@@ -44,7 +46,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Trình duyệt tích hợp Windows – miễn phí ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Trình duyệt tích hợp Windows",
+      "url": "https://www.microsoft.com/vi-vn/edge/download",
+      "winget_id": "Microsoft.Edge"
+    }
   },
   {
     "id": "coc-coc",
@@ -60,7 +66,8 @@
     "note": "Trình duyệt Việt Nam – miễn phí ✓",
     "free_catalog": {
       "desc": "Trình duyệt Việt Nam hỗ trợ tải torrent",
-      "url": "https://coccoc.com/"
+      "url": "https://coccoc.com/",
+      "winget_id": "CocCoc.CocCoc"
     }
   },
   {
@@ -76,7 +83,8 @@
     "note": "Trình duyệt có VPN tích hợp – miễn phí ✓",
     "free_catalog": {
       "desc": "Trình duyệt VPN tích hợp miễn phí",
-      "url": "https://www.opera.com/download"
+      "url": "https://www.opera.com/download",
+      "winget_id": "Opera.Opera"
     }
   },
   {
@@ -92,7 +100,8 @@
     "note": "Trình duyệt chặn quảng cáo mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Tự động chặn quảng cáo & tracker",
-      "url": "https://brave.com/download/"
+      "url": "https://brave.com/download/",
+      "winget_id": "Brave.Brave"
     }
   },
   {
@@ -106,7 +115,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Trình duyệt tùy biến cao – miễn phí ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Trình duyệt tùy biến cao",
+      "url": "https://vivaldi.com/download/",
+      "winget_id": "Vivaldi.Vivaldi"
+    }
   },
   {
     "id": "internet-explorer",
@@ -117,7 +130,7 @@
     "license": "Miễn phí",
     "category": "Trình duyệt",
     "alt": "Microsoft Edge",
-    "alt_url": "",
+    "alt_url": "https://www.microsoft.com/vi-vn/edge/download",
     "note": "Đã lỗi thời – nên chuyển sang Edge",
     "free_catalog": null
   },
@@ -132,7 +145,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Trình duyệt ẩn danh mã nguồn mở ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Trình duyệt ẩn danh mã nguồn mở ",
+      "url": "https://www.torproject.org/download/",
+      "winget_id": "TorProject.TorBrowser"
+    }
   },
   {
     "id": "360-browser",
@@ -159,7 +176,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Trình duyệt Firefox fork – mã nguồn mở ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Trình duyệt Firefox fork – mã nguồn mở ",
+      "url": "https://www.waterfox.com/download/",
+      "winget_id": "Waterfox.Waterfox"
+    }
   },
   {
     "id": "microsoft-office",
@@ -279,7 +300,8 @@
     "note": "Bộ Office miễn phí mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Bộ Office hoàn chỉnh thay thế Microsoft Office",
-      "url": "https://www.libreoffice.org/download/"
+      "url": "https://www.libreoffice.org/download/",
+      "winget_id": "TheDocumentFoundation.LibreOffice"
     }
   },
   {
@@ -295,7 +317,8 @@
     "note": "Tương thích cao .docx .xlsx .pptx ✓",
     "free_catalog": {
       "desc": "Tương thích cao với file .docx .xlsx .pptx",
-      "url": "https://www.onlyoffice.com/download-desktop.aspx"
+      "url": "https://www.onlyoffice.com/download-desktop.aspx",
+      "winget_id": "ONLYOFFICE.DesktopEditors"
     }
   },
   {
@@ -326,7 +349,8 @@
     "note": "Trình soạn thảo mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Trình soạn thảo code và văn bản nhẹ",
-      "url": "https://notepad-plus-plus.org/downloads/"
+      "url": "https://notepad-plus-plus.org/downloads/",
+      "winget_id": "Notepad++.Notepad++"
     }
   },
   {
@@ -371,7 +395,8 @@
     "note": "Đọc PDF miễn phí – chỉnh sửa cần Pro",
     "free_catalog": {
       "desc": "Đọc PDF nhanh, nhẹ hơn Adobe Reader",
-      "url": "https://www.foxit.com/pdf-reader/"
+      "url": "https://www.foxit.com/pdf-reader/",
+      "winget_id": null
     }
   },
   {
@@ -387,7 +412,8 @@
     "note": "Tạo, ghép, chia, nén PDF – miễn phí ✓",
     "free_catalog": {
       "desc": "Tạo, ghép, chia, nén PDF miễn phí",
-      "url": "https://tools.pdf24.org/"
+      "url": "https://tools.pdf24.org/",
+      "winget_id": "geeksoftwareGmbH.PDF24Creator"
     }
   },
   {
@@ -416,7 +442,8 @@
     "note": "Bộ gõ tiếng Việt phổ biến – miễn phí ✓",
     "free_catalog": {
       "desc": "Bộ gõ tiếng Việt phổ biến nhất",
-      "url": "https://www.unikey.org/download.html"
+      "url": "https://www.unikey.org/download.html",
+      "winget_id": "UniKey.UniKey"
     }
   },
   {
@@ -432,7 +459,8 @@
     "note": "Bộ gõ tiếng Việt mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Bộ gõ tiếng Việt mã nguồn mở không quảng cáo",
-      "url": "https://evkeyvn.com/"
+      "url": "https://evkeyvn.com/",
+      "winget_id": "lamquangminh.EVKey"
     }
   },
   {
@@ -447,7 +475,11 @@
     "alt": "LibreOffice",
     "alt_url": "https://www.libreoffice.org/download/",
     "note": "Bộ Office mã nguồn mở (khuyên dùng LibreOffice thay) ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Bộ Office mã nguồn mở thay thế Microsoft Office",
+      "url": "https://www.openoffice.org/download/",
+      "winget_id": "Apache.OpenOffice"
+    }
   },
   {
     "id": "thunderbird",
@@ -463,7 +495,8 @@
     "note": "Email client mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Email client mã nguồn mở thay thế Outlook",
-      "url": "https://www.thunderbird.net/"
+      "url": "https://www.thunderbird.net/",
+      "winget_id": "Mozilla.Thunderbird"
     }
   },
   {
@@ -491,13 +524,17 @@
     "alt": "",
     "alt_url": "",
     "note": "Phần mềm dàn trang mã nguồn mở ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Phần mềm dàn trang mã nguồn mở",
+      "url": "https://sourceforge.net/projects/scribus/",
+      "winget_id": "Scribus.Scribus"
+    }
   },
   {
     "id": "sumatra-pdf",
-    "name": "Sumatra PDF",
+    "name": "SumatraPDF",
     "keywords": [
-      "sumatra pdf"
+      "sumatrapdf"
     ],
     "license": "Mã nguồn mở",
     "category": "Ứng dụng văn phòng",
@@ -506,7 +543,8 @@
     "note": "Đọc PDF/eBook nhẹ, mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Đọc PDF/eBook cực nhẹ, nhanh",
-      "url": "https://www.sumatrapdfreader.org/download-free-pdf-viewer"
+      "url": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
+      "winget_id": "SumatraPDF.SumatraPDF"
     }
   },
   {
@@ -521,7 +559,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Đọc số thành chữ trong Excel – miễn phí ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Đọc số thành chữ trong Excel ",
+      "url": "https://bluesofts.net/giai-phap-phan-mem/Phan-mem-mien-phi/accounting-helper-doc-so-thanh-chu-trong-excel.html",
+      "winget_id": null
+    }
   },
   {
     "id": "windows-10",
@@ -575,7 +617,8 @@
     "note": "Gỡ phần mềm – Pro tốn phí",
     "free_catalog": {
       "desc": "Gỡ phần mềm sạch sẽ hơn Add/Remove Programs",
-      "url": "https://www.revouninstaller.com/"
+      "url": "https://www.revouninstaller.com/",
+      "winget_id": "RevoUninstaller.RevoUninstaller"
     }
   },
   {
@@ -592,7 +635,8 @@
     "note": "Gỡ phần mềm hàng loạt mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Gỡ phần mềm hàng loạt, mã nguồn mở",
-      "url": "https://www.bcuninstaller.com/"
+      "url": "https://www.bcuninstaller.com/",
+      "winget_id": "Klocman.BulkCrapUninstaller"
     }
   },
   {
@@ -605,8 +649,12 @@
     "category": "Phần mềm Hệ thống",
     "alt": "BleachBit",
     "alt_url": "https://www.bleachbit.org/download",
-    "note": "Dọn rác – Pro tốn phí",
-    "free_catalog": null
+    "note": "Phần mềm dọn dẹp, tăng tốc máy tính – Pro tốn phí",
+    "free_catalog": {
+      "desc": "Phần mềm dọn dẹp, tăng tốc máy tính",
+      "url": "https://www.ccleaner.com/vi-vn/ccleaner/download",
+      "winget_id": "Piriform.CCleaner.Slim"
+    }
   },
   {
     "id": "bleachbit",
@@ -621,7 +669,8 @@
     "note": "Dọn rác hệ thống mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Dọn rác hệ thống mã nguồn mở thay CCleaner",
-      "url": "https://www.bleachbit.org/download"
+      "url": "https://www.bleachbit.org/download",
+      "winget_id": "BleachBit.BleachBit"
     }
   },
   {
@@ -637,7 +686,8 @@
     "note": "Xem nhiệt độ phần cứng – miễn phí ✓",
     "free_catalog": {
       "desc": "Theo dõi nhiệt độ CPU/GPU/ổ cứng",
-      "url": "https://www.cpuid.com/softwares/hwmonitor.html"
+      "url": "https://www.cpuid.com/softwares/hwmonitor.html",
+      "winget_id": "CPUID.HWMonitor"
     }
   },
   {
@@ -651,7 +701,11 @@
     "alt": "CPU-Z + HWiNFO",
     "alt_url": "https://www.hwinfo.com/",
     "note": "Xem cấu hình máy – Pro tốn phí",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Xem cấu hình máy",
+      "url": "https://www.ccleaner.com/vi-vn/speccy/download",
+      "winget_id": "Piriform.Speccy"
+    }
   },
   {
     "id": "cpu-z",
@@ -667,7 +721,8 @@
     "note": "Xem thông tin CPU/RAM/bo mạch – miễn phí ✓",
     "free_catalog": {
       "desc": "Xem thông tin CPU, RAM, bo mạch chủ",
-      "url": "https://www.cpuid.com/softwares/cpu-z.html"
+      "url": "https://www.cpuid.com/softwares/cpu-z.html",
+      "winget_id": "CPUID.CPU-Z"
     }
   },
   {
@@ -684,7 +739,8 @@
     "note": "Xem thông tin card đồ họa – miễn phí ✓",
     "free_catalog": {
       "desc": "Xem thông tin card đồ họa chi tiết",
-      "url": "https://www.techpowerup.com/gpuz/"
+      "url": "https://www.techpowerup.com/gpuz/",
+      "winget_id": "TechPowerUp.GPU-Z"
     }
   },
   {
@@ -701,7 +757,8 @@
     "note": "Xem thông tin phần cứng chi tiết – miễn phí ✓",
     "free_catalog": {
       "desc": "Xem thông tin phần cứng rất chi tiết",
-      "url": "https://www.hwinfo.com/download/"
+      "url": "https://www.hwinfo.com/download/",
+      "winget_id": "JuanjoFuchs.hwinfo-tui"
     }
   },
   {
@@ -717,7 +774,8 @@
     "note": "Kiểm tra sức khỏe ổ cứng mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Kiểm tra sức khỏe HDD/SSD",
-      "url": "https://crystalmark.info/en/software/crystaldiskinfo/"
+      "url": "https://crystalmark.info/en/software/crystaldiskinfo/",
+      "winget_id": "CrystalDewWorld.CrystalDiskInfo"
     }
   },
   {
@@ -733,7 +791,8 @@
     "note": "Test tốc độ ổ cứng mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Test tốc độ đọc/ghi ổ cứng",
-      "url": "https://crystalmark.info/en/software/crystaldiskmark/"
+      "url": "https://crystalmark.info/en/software/crystaldiskmark/",
+      "winget_id": "CrystalDewWorld.CrystalDiskMark"
     }
   },
   {
@@ -760,7 +819,11 @@
     "alt": "CrystalDiskInfo",
     "alt_url": "https://crystalmark.info/en/software/crystaldiskinfo/",
     "note": "Kiểm tra tuổi thọ SSD – Pro tốn phí",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Kiểm tra tuổi thọ SSD",
+      "url": "https://ssd-life.com/en/download-ssdlife/",
+      "winget_id": null
+    }
   },
   {
     "id": "3dp-chip",
@@ -775,7 +838,8 @@
     "note": "Tìm và cập nhật driver – miễn phí ✓",
     "free_catalog": {
       "desc": "Tìm và cập nhật driver tự động",
-      "url": "https://www.3dpchip.com/"
+      "url": "https://www.3dpchip.com/",
+      "winget_id": null
     }
   },
   {
@@ -806,7 +870,8 @@
     "note": "Cài driver offline mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Cài driver offline mã nguồn mở",
-      "url": "https://sdi-tool.org/"
+      "url": "https://sdi-tool.org/",
+      "winget_id": "samlab-ws.SnappyDriverInstaller"
     }
   },
   {
@@ -822,7 +887,8 @@
     "note": "Tìm kiếm file tức thì – miễn phí ✓",
     "free_catalog": {
       "desc": "Tìm kiếm file tức thì, siêu tốc",
-      "url": "https://www.voidtools.com/downloads/"
+      "url": "https://www.voidtools.com/downloads/",
+      "winget_id": "voidtools.Everything"
     }
   },
   {
@@ -839,7 +905,8 @@
     "note": "Tự động hóa bàn phím/chuột – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Tự động hóa thao tác bàn phím/chuột",
-      "url": "https://www.autohotkey.com/download/"
+      "url": "https://www.autohotkey.com/download/",
+      "winget_id": "AutoHotkey.AutoHotkey"
     }
   },
   {
@@ -870,7 +937,8 @@
     "note": "Máy ảo mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Máy ảo mã nguồn mở thay thế VMware",
-      "url": "https://www.virtualbox.org/wiki/Downloads"
+      "url": "https://www.virtualbox.org/wiki/Downloads",
+      "winget_id": "Oracle.VirtualBox"
     }
   },
   {
@@ -901,7 +969,8 @@
     "note": "Tạo USB Boot – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Tạo USB Boot cài Windows/Linux",
-      "url": "https://rufus.ie/downloads/"
+      "url": "https://rufus.ie/downloads/",
+      "winget_id": "Rufus.Rufus"
     }
   },
   {
@@ -917,7 +986,8 @@
     "note": "Tạo USB Boot đa ISO – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Tạo USB Boot chứa nhiều file ISO",
-      "url": "https://github.com/ventoy/Ventoy/releases"
+      "url": "https://github.com/ventoy/Ventoy/releases",
+      "winget_id": "Ventoy.Ventoy"
     }
   },
   {
@@ -972,7 +1042,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Hỗ trợ đồ họa Windows – miễn phí ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Hỗ trợ đồ họa Windows ",
+      "url": "https://www.microsoft.com/en-ca/download/details.aspx?id=35",
+      "winget_id": "Microsoft.DirectX"
+    }
   },
   {
     "id": "visual-cpp",
@@ -987,7 +1061,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Thư viện Visual C++ – miễn phí ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Thư viện Visual C++ – miễn phí ",
+      "url": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170",
+      "winget_id": null
+    }
   },
   {
     "id": "dotnet",
@@ -1002,7 +1080,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Nền tảng .NET Windows – miễn phí ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Nền tảng .NET Windows – miễn phí ",
+      "url": "https://dotnet.microsoft.com/",
+      "winget_id": null
+    }
   },
   {
     "id": "minitool-partition",
@@ -1016,7 +1098,11 @@
     "alt": "GParted",
     "alt_url": "https://gparted.org/livecd.php",
     "note": "Quản lý phân vùng – tính năng cao cần mua",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Quản lý phân vùng – miễn phí ",
+      "url": "https://www.partitionwizard.com/free-partition-manager.html",
+      "winget_id": "MiniTool.PartitionWizard.Free"
+    }
   },
   {
     "id": "aomei-partition",
@@ -1029,7 +1115,11 @@
     "alt": "GParted",
     "alt_url": "https://gparted.org/livecd.php",
     "note": "Quản lý phân vùng – Pro tốn phí",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Quản lý phân vùng – miễn phí ",
+      "url": "https://www.diskpart.com/download.html",
+      "winget_id": "AOMEI.PartitionAssistant"
+    }
   },
   {
     "id": "aomei-backupper",
@@ -1057,7 +1147,8 @@
     "note": "Sao lưu ổ cứng – Free đủ dùng cơ bản",
     "free_catalog": {
       "desc": "Sao lưu và khôi phục ổ cứng",
-      "url": "https://www.macrium.com/reflectfree.aspx"
+      "url": "https://www.macrium.com/reflectfree.aspx",
+      "winget_id": null
     }
   },
   {
@@ -1170,7 +1261,8 @@
     "note": "Chỉnh sửa ảnh chuyên nghiệp thay Photoshop ✓",
     "free_catalog": {
       "desc": "Chỉnh sửa ảnh chuyên nghiệp thay Photoshop",
-      "url": "https://www.gimp.org/downloads/"
+      "url": "https://www.gimp.org/downloads/",
+      "winget_id": "GIMP.GIMP"
     }
   },
   {
@@ -1186,7 +1278,8 @@
     "note": "Đồ họa vector thay thế Illustrator ✓",
     "free_catalog": {
       "desc": "Đồ họa vector thay thế Illustrator",
-      "url": "https://inkscape.org/release/"
+      "url": "https://inkscape.org/release/",
+      "winget_id": "Inkscape.Inkscape"
     }
   },
   {
@@ -1202,7 +1295,8 @@
     "note": "Vẽ kỹ thuật số chuyên nghiệp ✓",
     "free_catalog": {
       "desc": "Vẽ kỹ thuật số, minh họa chuyên nghiệp",
-      "url": "https://krita.org/en/download/"
+      "url": "https://krita.org/en/download/",
+      "winget_id": "KDE.Krita"
     }
   },
   {
@@ -1219,7 +1313,8 @@
     "note": "Chỉnh ảnh đơn giản – miễn phí ✓",
     "free_catalog": {
       "desc": "Chỉnh ảnh đơn giản nhẹ hơn GIMP",
-      "url": "https://www.getpaint.net/download.html"
+      "url": "https://www.getpaint.net/download.html",
+      "winget_id": "paint.net"
     }
   },
   {
@@ -1235,7 +1330,8 @@
     "note": "Xử lý ảnh RAW thay Adobe Lightroom ✓",
     "free_catalog": {
       "desc": "Xử lý ảnh RAW thay Adobe Lightroom",
-      "url": "https://www.darktable.org/install/"
+      "url": "https://www.darktable.org/install/",
+      "winget_id": "darktable.darktable"
     }
   },
   {
@@ -1266,7 +1362,8 @@
     "note": "Xem và chỉnh ảnh nhanh – miễn phí ✓",
     "free_catalog": {
       "desc": "Xem ảnh nhanh, nhẹ, nhiều định dạng",
-      "url": "https://www.faststone.org/FSViewerDownload.htm"
+      "url": "https://www.faststone.org/FSViewerDownload.htm",
+      "winget_id": "FastStone.Viewer"
     }
   },
   {
@@ -1282,7 +1379,8 @@
     "note": "Xem ảnh đa dạng định dạng – miễn phí ✓",
     "free_catalog": {
       "desc": "Xem ảnh đa định dạng cực nhẹ",
-      "url": "https://www.irfanview.com/64bit.htm"
+      "url": "https://www.irfanview.com/64bit.htm",
+      "winget_id": "IrfanSkiljan.IrfanView"
     }
   },
   {
@@ -1325,7 +1423,8 @@
     "note": "Bản vẽ kỹ thuật 2D mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Bản vẽ kỹ thuật 2D mã nguồn mở",
-      "url": "https://librecad.org/"
+      "url": "https://librecad.org/",
+      "winget_id": "LibreCAD.LibreCAD"
     }
   },
   {
@@ -1341,7 +1440,8 @@
     "note": "Bản vẽ 3D mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Phần mềm 3D CAD mã nguồn mở",
-      "url": "https://www.freecad.org/downloads.php"
+      "url": "https://www.freecad.org/downloads.php",
+      "winget_id": "FreeCAD.FreeCAD"
     }
   },
   {
@@ -1370,7 +1470,8 @@
     "note": "Dựng hình 3D / hoạt hình mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Dựng hình 3D và hoạt hình chuyên nghiệp",
-      "url": "https://www.blender.org/download/"
+      "url": "https://www.blender.org/download/",
+      "winget_id": "BlenderFoundation.Blender"
     }
   },
   {
@@ -1384,7 +1485,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Thiết kế trực tuyến – tính năng cao tốn phí",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Thiết kế trực tuyến miễn phí",
+      "url": "https://www.canva.com/vi_vn/",
+      "winget_id": "Canva.Canva"
+    }
   },
   {
     "id": "adobe-premiere",
@@ -1441,7 +1546,8 @@
     "note": "Chỉnh sửa video miễn phí ✓",
     "free_catalog": {
       "desc": "Ứng dụng chỉnh sửa video miễn phí",
-      "url": "https://www.capcut.com/"
+      "url": "https://www.capcut.com/",
+      "winget_id": "ByteDance.CapCut"
     }
   },
   {
@@ -1471,7 +1577,8 @@
     "note": "Xem phim mọi định dạng – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Xem phim mọi định dạng, nhẹ và ổn định",
-      "url": "https://www.videolan.org/vlc/"
+      "url": "https://www.videolan.org/vlc/",
+      "winget_id": "VideoLAN.VLC"
     }
   },
   {
@@ -1488,7 +1595,8 @@
     "note": "Quay màn hình & livestream – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Quay màn hình và livestream chuyên nghiệp",
-      "url": "https://obsproject.com/download"
+      "url": "https://obsproject.com/download",
+      "winget_id": "OBSProject.OBSStudio"
     }
   },
   {
@@ -1504,7 +1612,8 @@
     "note": "Dựng phim chuyên nghiệp – bản Free đủ dùng ✓",
     "free_catalog": {
       "desc": "Dựng phim chuyên nghiệp không cần trả phí",
-      "url": "https://www.blackmagicdesign.com/products/davinciresolve"
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "winget_id": null
     }
   },
   {
@@ -1520,7 +1629,8 @@
     "note": "Chuyển đổi & nén video – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Chuyển đổi và nén video",
-      "url": "https://handbrake.fr/downloads.php"
+      "url": "https://handbrake.fr/downloads.php",
+      "winget_id": "HandBrake.HandBrake"
     }
   },
   {
@@ -1536,7 +1646,8 @@
     "note": "Dựng phim mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Dựng phim mã nguồn mở thay Premiere",
-      "url": "https://kdenlive.org/en/download/"
+      "url": "https://kdenlive.org/en/download/",
+      "winget_id": "KDE.Kdenlive"
     }
   },
   {
@@ -1554,7 +1665,8 @@
     "note": "Xem phim nhẹ, mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Xem phim cực nhẹ, mã nguồn mở",
-      "url": "https://github.com/clsid2/mpc-hc/releases"
+      "url": "https://github.com/clsid2/mpc-hc/releases",
+      "winget_id": "mpc-qt.mpc-qt"
     }
   },
   {
@@ -1571,7 +1683,8 @@
     "note": "Xem phim hỗ trợ nhiều định dạng – miễn phí ✓",
     "free_catalog": {
       "desc": "Xem phim hỗ trợ nhiều codec",
-      "url": "https://potplayer.daum.net/"
+      "url": "https://potplayer.daum.net/",
+      "winget_id": "Daum.PotPlayer"
     }
   },
   {
@@ -1601,7 +1714,8 @@
     "note": "Bộ codec video – miễn phí ✓",
     "free_catalog": {
       "desc": "Bộ codec xem mọi định dạng video",
-      "url": "https://www.codecguide.com/download_kl.htm"
+      "url": "https://www.codecguide.com/download_kl.htm",
+      "winget_id": "CodecGuide.K-LiteCodecPack.Basic"
     }
   },
   {
@@ -1630,7 +1744,8 @@
     "note": "Nghe nhạc – miễn phí ✓",
     "free_catalog": {
       "desc": "Nghe nhạc kinh điển",
-      "url": "https://www.winamp.com/"
+      "url": "https://www.winamp.com/",
+      "winget_id": "Winamp.Winamp"
     }
   },
   {
@@ -1647,7 +1762,8 @@
     "note": "Nghe nhạc chất lượng cao – miễn phí ✓",
     "free_catalog": {
       "desc": "Nghe nhạc chất lượng cao, tùy biến cao",
-      "url": "https://www.foobar2000.org/download"
+      "url": "https://www.foobar2000.org/download",
+      "winget_id": "PeterPawlowski.foobar2000"
     }
   },
   {
@@ -1663,7 +1779,8 @@
     "note": "Chỉnh sửa âm thanh – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Chỉnh sửa âm thanh, thu âm đa rãnh",
-      "url": "https://www.audacityteam.org/download/"
+      "url": "https://www.audacityteam.org/download/",
+      "winget_id": "Audacity.Audacity"
     }
   },
   {
@@ -1679,7 +1796,8 @@
     "note": "Quản lý thư viện nhạc – miễn phí ✓",
     "free_catalog": {
       "desc": "Quản lý thư viện nhạc thay iTunes",
-      "url": "https://getmusicbee.com/downloads/"
+      "url": "https://getmusicbee.com/downloads/",
+      "winget_id": null
     }
   },
   {
@@ -1708,7 +1826,8 @@
     "note": "Chỉnh thẻ tag nhạc MP3 – miễn phí ✓",
     "free_catalog": {
       "desc": "Chỉnh sửa thẻ tag file âm nhạc",
-      "url": "https://www.mp3tag.de/en/download.html"
+      "url": "https://www.mp3tag.de/en/download.html",
+      "winget_id": "FlorianHeidenreich.Mp3tag"
     }
   },
   {
@@ -1839,7 +1958,8 @@
     "note": "Diệt Malware – Free quét thủ công",
     "free_catalog": {
       "desc": "Diệt Malware, spyware hiệu quả",
-      "url": "https://www.malwarebytes.com/mwb-download"
+      "url": "https://www.malwarebytes.com/mwb-download",
+      "winget_id": "Malwarebytes.Malwarebytes"
     }
   },
   {
@@ -1910,7 +2030,8 @@
     "note": "Dọn Adware/PUP – miễn phí ✓",
     "free_catalog": {
       "desc": "Dọn Adware và phần mềm không mong muốn",
-      "url": "https://www.malwarebytes.com/adwcleaner"
+      "url": "https://www.malwarebytes.com/adwcleaner",
+      "winget_id": "Malwarebytes.AdwCleaner"
     }
   },
   {
@@ -1927,7 +2048,8 @@
     "note": "Quản lý mật khẩu mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Quản lý mật khẩu an toàn, mã nguồn mở",
-      "url": "https://keepassxc.org/download/"
+      "url": "https://keepassxc.org/download/",
+      "winget_id": "KeePassXCTeam.KeePassXC"
     }
   },
   {
@@ -1943,7 +2065,8 @@
     "note": "Quản lý mật khẩu cloud, mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Quản lý mật khẩu cloud mã nguồn mở",
-      "url": "https://bitwarden.com/download/"
+      "url": "https://bitwarden.com/download/",
+      "winget_id": "Bitwarden.Bitwarden"
     }
   },
   {
@@ -1959,7 +2082,8 @@
     "note": "Mã hóa ổ cứng – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Mã hóa ổ cứng / thư mục mã nguồn mở",
-      "url": "https://www.veracrypt.fr/en/Downloads.html"
+      "url": "https://www.veracrypt.fr/en/Downloads.html",
+      "winget_id": "IDRIX.VeraCrypt"
     }
   },
   {
@@ -2003,7 +2127,7 @@
   },
   {
     "id": "protonvpn",
-    "name": "ProtonVPN",
+    "name": "Proton VPN",
     "keywords": [
       "protonvpn",
       "proton vpn"
@@ -2015,7 +2139,8 @@
     "note": "VPN – bản Free giới hạn",
     "free_catalog": {
       "desc": "VPN bảo mật, bản Free không giới hạn dữ liệu",
-      "url": "https://protonvpn.com/download"
+      "url": "https://protonvpn.com/download",
+      "winget_id": "Proton.ProtonVPN"
     }
   },
   {
@@ -2031,12 +2156,13 @@
     "note": "VPN mã nguồn mở ✓",
     "free_catalog": {
       "desc": "VPN mã nguồn mở",
-      "url": "https://openvpn.net/community-downloads/"
+      "url": "https://openvpn.net/community-downloads/",
+      "winget_id": "OpenVPNTechnologies.OpenVPN"
     }
   },
   {
     "id": "zalo",
-    "name": "Zalo PC",
+    "name": "Zalo",
     "keywords": [
       "zalo pc",
       "zalo"
@@ -2048,7 +2174,8 @@
     "note": "Chat Việt Nam – miễn phí ✓",
     "free_catalog": {
       "desc": "Ứng dụng Zalo trên máy tính",
-      "url": "https://zalo.me/pc"
+      "url": "https://zalo.me/pc",
+      "winget_id": "VNGCorp.Zalo"
     }
   },
   {
@@ -2065,7 +2192,8 @@
     "note": "Nhắn tin bảo mật – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Nhắn tin bảo mật, mã nguồn mở",
-      "url": "https://desktop.telegram.org/"
+      "url": "https://desktop.telegram.org/",
+      "winget_id": "Telegram.TelegramDesktop"
     }
   },
   {
@@ -2081,7 +2209,8 @@
     "note": "Chat nhóm, gọi video – miễn phí ✓",
     "free_catalog": {
       "desc": "Chat nhóm, gọi video, chia sẻ màn hình",
-      "url": "https://discord.com/download"
+      "url": "https://discord.com/download",
+      "winget_id": "DiscordChatExporter.CLI"
     }
   },
   {
@@ -2123,7 +2252,8 @@
     "note": "Gọi video quốc tế – miễn phí ✓",
     "free_catalog": {
       "desc": "Gọi video quốc tế miễn phí",
-      "url": "https://www.skype.com/en/get-skype/"
+      "url": "https://www.skype.com/en/get-skype/",
+      "winget_id": null
     }
   },
   {
@@ -2139,7 +2269,8 @@
     "note": "Nhắn tin mã hóa đầu-cuối – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Nhắn tin mã hóa đầu-cuối",
-      "url": "https://signal.org/download/windows/"
+      "url": "https://signal.org/download/windows/",
+      "winget_id": "OpenWhisperSystems.Signal"
     }
   },
   {
@@ -2152,8 +2283,12 @@
     "category": "Chat & Gọi video",
     "alt": "",
     "alt_url": "",
-    "note": "Gọi video miễn phí – miễn phí ✓",
-    "free_catalog": null
+    "note": "Gọi video nhắn tin – miễn phí ✓",
+    "free_catalog": {
+      "desc": "Gọi video nhắn tin – miễn phí ",
+      "url": "https://www.viber.com/vi/download/",
+      "winget_id": "Rakuten.Viber"
+    }
   },
   {
     "id": "slack",
@@ -2166,7 +2301,11 @@
     "alt": "Mattermost",
     "alt_url": "https://mattermost.com/download/",
     "note": "Nhắn tin nhóm – Free giới hạn lịch sử",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Nhắn tin nhóm – miễn phí ",
+      "url": "https://slack.com/downloads/windows",
+      "winget_id": "SlackTechnologies.Slack"
+    }
   },
   {
     "id": "mattermost",
@@ -2179,7 +2318,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Chat nhóm tự host – mã nguồn mở ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Chat nhóm tự host – mã nguồn mở",
+      "url": "https://mattermost.com/apps/",
+      "winget_id": "Mattermost.MattermostDesktop"
+    }
   },
   {
     "id": "teamviewer",
@@ -2220,7 +2363,8 @@
     "note": "Điều khiển từ xa tự host – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Điều khiển từ xa tự host thay TeamViewer",
-      "url": "https://rustdesk.com/"
+      "url": "https://rustdesk.com/",
+      "winget_id": null
     }
   },
   {
@@ -2234,7 +2378,11 @@
     "alt": "RustDesk",
     "alt_url": "https://rustdesk.com/",
     "note": "Điều khiển từ xa VN – Pro tốn phí",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Điều khiển từ xa VN thay TeamViewer",
+      "url": "https://www.ultraviewer.net/vi/download.html",
+      "winget_id": "DucFabulous.UltraViewer"
+    }
   },
   {
     "id": "google-meet",
@@ -2277,7 +2425,8 @@
     "note": "Tải file – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Tải file nhanh, hỗ trợ Torrent",
-      "url": "https://www.freedownloadmanager.org/"
+      "url": "https://www.freedownloadmanager.org/",
+      "winget_id": "SoftDeluxe.FreeDownloadManager"
     }
   },
   {
@@ -2293,7 +2442,8 @@
     "note": "Tải file từ hosting – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Tải file từ các hosting link",
-      "url": "https://jdownloader.org/download/index"
+      "url": "https://jdownloader.org/download/index",
+      "winget_id": "AppWork.JDownloader"
     }
   },
   {
@@ -2309,7 +2459,8 @@
     "note": "Torrent – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Torrent mã nguồn mở không quảng cáo",
-      "url": "https://www.qbittorrent.org/download.php"
+      "url": "https://www.qbittorrent.org/download.php",
+      "winget_id": "qBittorrent.qBittorrent"
     }
   },
   {
@@ -2352,7 +2503,8 @@
     "note": "FTP client – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "FTP/SFTP client mã nguồn mở",
-      "url": "https://filezilla-project.org/download.php"
+      "url": "https://filezilla-project.org/download.php",
+      "winget_id": null
     }
   },
   {
@@ -2368,7 +2520,8 @@
     "note": "SSH/Telnet client – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "SSH/Telnet client mã nguồn mở",
-      "url": "https://www.putty.org/"
+      "url": "https://www.putty.org/",
+      "winget_id": "PuTTY.PuTTY"
     }
   },
   {
@@ -2384,7 +2537,8 @@
     "note": "SFTP/SCP client – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "SFTP/FTP client đồ họa mã nguồn mở",
-      "url": "https://winscp.net/eng/download.php"
+      "url": "https://winscp.net/eng/download.php",
+      "winget_id": "WinSCP.WinSCP"
     }
   },
   {
@@ -2400,7 +2554,8 @@
     "note": "Phân tích gói mạng – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Phân tích gói mạng chuyên nghiệp",
-      "url": "https://www.wireshark.org/download.html"
+      "url": "https://www.wireshark.org/download.html",
+      "winget_id": "WiresharkFoundation.Wireshark"
     }
   },
   {
@@ -2414,7 +2569,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Quét mạng – mã nguồn mở ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Quét mạng – mã nguồn mở",
+      "url": "https://nmap.org/download.html",
+      "winget_id": "Insecure.Nmap"
+    }
   },
   {
     "id": "tailscale",
@@ -2429,7 +2588,8 @@
     "note": "VPN mesh – Free giới hạn thiết bị",
     "free_catalog": {
       "desc": "VPN mesh P2P dễ dùng",
-      "url": "https://tailscale.com/download/windows"
+      "url": "https://tailscale.com/download/windows",
+      "winget_id": "Tailscale.Tailscale"
     }
   },
   {
@@ -2445,7 +2605,8 @@
     "note": "Mạng ảo – Free giới hạn thiết bị",
     "free_catalog": {
       "desc": "Mạng ảo P2P miễn phí",
-      "url": "https://www.zerotier.com/download/"
+      "url": "https://www.zerotier.com/download/",
+      "winget_id": "ZeroTier.ZeroTierOne"
     }
   },
   {
@@ -2472,7 +2633,11 @@
     "alt": "",
     "alt_url": "",
     "note": "Quản lý MikroTik – miễn phí ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "Quản lý MikroTik – miễn phí ",
+      "url": "https://mikrotik.com/download/winbox",
+      "winget_id": "Mikrotik.Winbox"
+    }
   },
   {
     "id": "vscode",
@@ -2489,7 +2654,8 @@
     "note": "IDE phổ biến của Microsoft – miễn phí ✓",
     "free_catalog": {
       "desc": "IDE đa năng phổ biến nhất hiện nay",
-      "url": "https://code.visualstudio.com/download"
+      "url": "https://code.visualstudio.com/download",
+      "winget_id": "Microsoft.VisualStudioCode"
     }
   },
   {
@@ -2548,7 +2714,8 @@
     "note": "IDE Java mã nguồn mở ✓",
     "free_catalog": {
       "desc": "IDE Java mã nguồn mở",
-      "url": "https://www.eclipse.org/downloads/"
+      "url": "https://www.eclipse.org/downloads/",
+      "winget_id": "EclipseFoundation.Eclipse.CPP"
     }
   },
   {
@@ -2563,7 +2730,11 @@
     "alt": "",
     "alt_url": "",
     "note": "IDE Java/PHP mã nguồn mở ✓",
-    "free_catalog": null
+    "free_catalog": {
+      "desc": "IDE Java/PHP mã nguồn mở",
+      "url": "https://netbeans.apache.org/front/main/download/",
+      "winget_id": "Apache.NetBeans"
+    }
   },
   {
     "id": "sublime-text",
@@ -2592,12 +2763,13 @@
     "note": "Quản lý phiên bản – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Quản lý phiên bản mã nguồn trên Windows",
-      "url": "https://git-scm.com/download/win"
+      "url": "https://git-scm.com/download/win",
+      "winget_id": "Git.SDK"
     }
   },
   {
     "id": "python",
-    "name": "Python",
+    "name": "Python 3.9",
     "keywords": [
       "python 3",
       "python 3.",
@@ -2610,7 +2782,8 @@
     "note": "Ngôn ngữ lập trình – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Ngôn ngữ lập trình đa năng, dễ học",
-      "url": "https://www.python.org/downloads/"
+      "url": "https://www.python.org/downloads/",
+      "winget_id": "Python.Python.3.9"
     }
   },
   {
@@ -2627,7 +2800,8 @@
     "note": "Runtime JavaScript – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Runtime JavaScript cho backend",
-      "url": "https://nodejs.org/en/download/"
+      "url": "https://nodejs.org/en/download/",
+      "winget_id": "Node.js"
     }
   },
   {
@@ -2643,7 +2817,8 @@
     "note": "Web server tổng hợp – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Gói AMP (Apache/MySQL/PHP) cho Windows",
-      "url": "https://www.apachefriends.org/download.html"
+      "url": "https://www.apachefriends.org/download.html",
+      "winget_id": "ApacheFriends.Xampp.8.1"
     }
   },
   {
@@ -2674,7 +2849,8 @@
     "note": "Container – Free cho cá nhân",
     "free_catalog": {
       "desc": "Container hóa ứng dụng",
-      "url": "https://www.docker.com/products/docker-desktop/"
+      "url": "https://www.docker.com/products/docker-desktop/",
+      "winget_id": "Docker.DockerDesktop"
     }
   },
   {
@@ -2690,7 +2866,8 @@
     "note": "Test API – Free giới hạn",
     "free_catalog": {
       "desc": "Test API REST/GraphQL",
-      "url": "https://www.postman.com/downloads/"
+      "url": "https://www.postman.com/downloads/",
+      "winget_id": "Postman.Postman"
     }
   },
   {
@@ -2706,7 +2883,8 @@
     "note": "Quản lý CSDL đa loại – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Quản lý CSDL đa loại MySQL/PostgreSQL/SQLite",
-      "url": "https://dbeaver.io/download/"
+      "url": "https://dbeaver.io/download/",
+      "winget_id": "DBeaver.DBeaver.Community"
     }
   },
   {
@@ -2722,7 +2900,8 @@
     "note": "Git GUI – miễn phí ✓",
     "free_catalog": {
       "desc": "Giao diện đồ họa cho Git và GitHub",
-      "url": "https://desktop.github.com/"
+      "url": "https://desktop.github.com/",
+      "winget_id": "GitHub.GitHubDesktop"
     }
   },
   {
@@ -2738,7 +2917,8 @@
     "note": "Git GUI – miễn phí ✓",
     "free_catalog": {
       "desc": "Git GUI từ Atlassian",
-      "url": "https://www.sourcetreeapp.com/"
+      "url": "https://www.sourcetreeapp.com/",
+      "winget_id": "Atlassian.Sourcetree"
     }
   },
   {
@@ -2754,7 +2934,8 @@
     "note": "IDE Android – miễn phí ✓",
     "free_catalog": {
       "desc": "IDE chính thức cho Android",
-      "url": "https://developer.android.com/studio"
+      "url": "https://developer.android.com/studio",
+      "winget_id": "Google.AndroidStudio"
     }
   },
   {
@@ -2864,7 +3045,8 @@
     "note": "Kế toán cá nhân/doanh nghiệp nhỏ – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Kế toán cá nhân và doanh nghiệp nhỏ",
-      "url": "https://www.gnucash.org/download.phtml"
+      "url": "https://www.gnucash.org/download.phtml",
+      "winget_id": "GnuCash.GnuCash"
     }
   },
   {
@@ -2880,7 +3062,8 @@
     "note": "ERP – Community miễn phí",
     "free_catalog": {
       "desc": "ERP đa năng – bản Community miễn phí",
-      "url": "https://www.odoo.com/page/download"
+      "url": "https://www.odoo.com/page/download",
+      "winget_id": "Algoryx.Algodoo"
     }
   },
   {
@@ -2910,7 +3093,8 @@
     "note": "Khai thuế điện tử Tổng cục Thuế – miễn phí ✓",
     "free_catalog": {
       "desc": "Phần mềm khai thuế điện tử của TCT",
-      "url": "https://www.gdt.gov.vn/wps/portal/home/chucnanghethong/phtnmkkttdt"
+      "url": "https://www.gdt.gov.vn/wps/portal/home/chucnanghethong/phtnmkkttdt",
+      "winget_id": null
     }
   },
   {
@@ -2968,7 +3152,8 @@
     "note": "Nén/giải nén tỉ lệ cao – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Nén/giải nén file tỉ lệ cao nhất",
-      "url": "https://www.7-zip.org/download.html"
+      "url": "https://www.7-zip.org/download.html",
+      "winget_id": "7zip.7zip"
     }
   },
   {
@@ -3010,7 +3195,8 @@
     "note": "Nén/giải nén – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Nén/giải nén mã nguồn mở hỗ trợ nhiều định dạng",
-      "url": "https://peazip.github.io/"
+      "url": "https://peazip.github.io/",
+      "winget_id": "Giorgiotani.Peazip"
     }
   },
   {
@@ -3039,7 +3225,8 @@
     "note": "Quản lý file 2 panel – miễn phí ✓",
     "free_catalog": {
       "desc": "Quản lý file 2 panel thay Total Commander",
-      "url": "https://www.freecommander.com/fc_downl.htm"
+      "url": "https://www.freecommander.com/fc_downl.htm",
+      "winget_id": "MarekJasinski.FreeCommanderXE"
     }
   },
   {
@@ -3056,7 +3243,8 @@
     "note": "Quản lý file – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Quản lý file 2 panel mã nguồn mở",
-      "url": "https://doublecommander.com/"
+      "url": "https://doublecommander.com/",
+      "winget_id": "alexx2000.DoubleCommander"
     }
   },
   {
@@ -3072,7 +3260,8 @@
     "note": "Chụp màn hình & tải lên – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Chụp màn hình chuyên nghiệp, mã nguồn mở",
-      "url": "https://getsharex.com/"
+      "url": "https://getsharex.com/",
+      "winget_id": "ShareX.ShareX"
     }
   },
   {
@@ -3088,7 +3277,8 @@
     "note": "Copy file nhanh hơn – Pro tốn phí",
     "free_catalog": {
       "desc": "Copy/Move file nhanh hơn Windows Explorer",
-      "url": "https://www.codesector.com/teracopy"
+      "url": "https://www.codesector.com/teracopy",
+      "winget_id": "CodeSector.TeraCopy"
     }
   },
   {
@@ -3118,7 +3308,8 @@
     "note": "CSDL quan hệ mạnh mẽ – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "CSDL quan hệ phổ biến nhất",
-      "url": "https://www.postgresql.org/"
+      "url": "https://www.postgresql.org/",
+      "winget_id": "PostgreSQL.PostgreSQL.10"
     }
   },
   {
@@ -3134,7 +3325,8 @@
     "note": "CSDL quan hệ phổ biến – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "CSDL quan hệ web phổ biến",
-      "url": "https://dev.mysql.com/downloads/"
+      "url": "https://dev.mysql.com/downloads/",
+      "winget_id": "Oracle.MySQL"
     }
   },
   {
@@ -3150,7 +3342,8 @@
     "note": "Fork MySQL – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Fork MySQL 100% mã nguồn mở",
-      "url": "https://mariadb.org/download/"
+      "url": "https://mariadb.org/download/",
+      "winget_id": "MariaDB.Server"
     }
   },
   {
@@ -3179,7 +3372,8 @@
     "note": "NoSQL – Community miễn phí",
     "free_catalog": {
       "desc": "CSDL NoSQL phổ biến nhất",
-      "url": "https://www.mongodb.com/try/download/community"
+      "url": "https://www.mongodb.com/try/download/community",
+      "winget_id": "MongoDB.Server"
     }
   },
   {
@@ -3208,7 +3402,8 @@
     "note": "GUI MySQL/MariaDB/PostgreSQL – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "GUI MySQL/MariaDB/PostgreSQL miễn phí",
-      "url": "https://www.heidisql.com/download.php"
+      "url": "https://www.heidisql.com/download.php",
+      "winget_id": "HeidiSQL.HeidiSQL"
     }
   },
   {
@@ -3225,7 +3420,8 @@
     "note": "GUI SQLite – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "GUI SQLite mã nguồn mở",
-      "url": "https://sqlitebrowser.org/dl/"
+      "url": "https://sqlitebrowser.org/dl/",
+      "winget_id": "DBBrowserForSQLite.DBBrowserForSQLite"
     }
   },
   {
@@ -3281,7 +3477,8 @@
     "note": "Thẻ ghi nhớ – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Thẻ ghi nhớ flashcard khoa học",
-      "url": "https://apps.ankiweb.net/"
+      "url": "https://apps.ankiweb.net/",
+      "winget_id": "Anki.Anki"
     }
   },
   {
@@ -3297,7 +3494,8 @@
     "note": "Toán học/hình học – miễn phí ✓",
     "free_catalog": {
       "desc": "Phần mềm toán học tương tác",
-      "url": "https://www.geogebra.org/download"
+      "url": "https://www.geogebra.org/download",
+      "winget_id": "GeoGebra.CASCalculator"
     }
   },
   {
@@ -3327,7 +3525,8 @@
     "note": "Bản đồ 3D – miễn phí ✓",
     "free_catalog": {
       "desc": "Bản đồ thế giới 3D Google Earth",
-      "url": "https://www.google.com/earth/about/versions/"
+      "url": "https://www.google.com/earth/about/versions/",
+      "winget_id": "Google.EarthPro"
     }
   },
   {
@@ -3343,7 +3542,8 @@
     "note": "Ghi chú/quản lý – Free cơ bản",
     "free_catalog": {
       "desc": "Ghi chú và quản lý dự án linh hoạt",
-      "url": "https://www.notion.so/desktop"
+      "url": "https://www.notion.so/desktop",
+      "winget_id": "Notion.Notion"
     }
   },
   {
@@ -3359,7 +3559,8 @@
     "note": "Ghi chú liên kết – Free cá nhân",
     "free_catalog": {
       "desc": "Ghi chú Markdown liên kết thông minh",
-      "url": "https://obsidian.md/download"
+      "url": "https://obsidian.md/download",
+      "winget_id": "Obsidian.Obsidian"
     }
   },
   {
@@ -3375,7 +3576,8 @@
     "note": "Ghi chú Markdown – mã nguồn mở ✓",
     "free_catalog": {
       "desc": "Ghi chú Markdown mã nguồn mở thay Evernote",
-      "url": "https://joplinapp.org/download/"
+      "url": "https://joplinapp.org/download/",
+      "winget_id": "Joplin.Joplin"
     }
   },
   {
@@ -3497,94 +3699,69 @@
     "free_catalog": null
   },
   {
-    "id": "mailbird",
-    "name": "Mailbird",
+    "id": "antigravity",
+    "name": "Antigravity",
     "keywords": [
-      "mailbird"
+      "antigravity"
     ],
     "license": "Freemium",
-    "category": "Quản lý Email",
-    "alt": "Mozilla Thunderbird",
-    "alt_url": "https://www.thunderbird.net/",
-    "note": "Email client – Pro tốn phí",
-    "free_catalog": null
-  },
-  {
-    "id": "em-client",
-    "name": "eM Client",
-    "keywords": [
-      "em client"
-    ],
-    "license": "Freemium",
-    "category": "Quản lý Email",
-    "alt": "Mozilla Thunderbird",
-    "alt_url": "https://www.thunderbird.net/",
-    "note": "Email client – Free 2 tài khoản",
-    "free_catalog": null
-  },
-  {
-    "id": "windows-update",
-    "name": "Windows Update",
-    "keywords": [
-      "windows update"
-    ],
-    "license": "Miễn phí",
-    "category": "Drivers - Firmware",
+    "category": "Phần mềm lập trình",
     "alt": "",
     "alt_url": "",
-    "note": "Cập nhật Windows – miễn phí ✓",
-    "free_catalog": null
-  },
-  {
-    "id": "intel-driver",
-    "name": "Intel Driver & Support Assistant",
-    "keywords": [
-      "intel driver",
-      "intel dsa"
-    ],
-    "license": "Miễn phí",
-    "category": "Drivers - Firmware",
-    "alt": "",
-    "alt_url": "",
-    "note": "Cập nhật driver Intel – miễn phí ✓",
+    "note": "Antigravity thay cho Visual Studio của Microsoft",
     "free_catalog": {
-      "desc": "Cập nhật driver Intel tự động",
-      "url": "https://www.intel.com/content/www/us/en/support/detect.html"
+      "desc": "Antigravity thay cho Visual Studio của Microsoft",
+      "url": "https://antigravity.google/",
+      "winget_id": "Google.Antigravity"
     }
   },
   {
-    "id": "amd-software",
-    "name": "AMD Software Adrenalin",
+    "id": "attendance-management",
+    "name": "Attendance Management",
     "keywords": [
-      "amd software",
-      "amd adrenalin",
-      "amd radeon software"
+      "attendance management"
+    ],
+    "license": "Freemium",
+    "category": "Quản lý Doanh nghiệp",
+    "alt": "Sure HCS",
+    "alt_url": "https://www.surehcs.com/",
+    "note": "Phần mềm chấm công",
+    "free_catalog": null
+  },
+  {
+    "id": "ctsigninghub",
+    "name": "CTSigningHub",
+    "keywords": [
+      "ctsigninghub"
     ],
     "license": "Miễn phí",
-    "category": "Drivers - Firmware",
+    "category": "Quản lý Doanh nghiệp",
     "alt": "",
     "alt_url": "",
-    "note": "Driver AMD/Radeon – miễn phí ✓",
+    "note": "",
     "free_catalog": {
-      "desc": "Driver và phần mềm AMD Radeon",
-      "url": "https://www.amd.com/en/support/download/drivers.html"
+      "desc": "Phần mềm ký số của Tổng cục Thuế Việt Nam",
+      "url": "https://dichvucong.gdt.gov.vn/tthc/homelogin/trogiup/views",
+      "winget_id": ""
     }
   },
   {
-    "id": "nvidia-geforce",
-    "name": "NVIDIA GeForce Experience",
+    "id": "vnegp-client-agent",
+    "name": "VNeGP Client Agent",
     "keywords": [
-      "nvidia geforce experience",
-      "nvidia"
+      "vnegp",
+      "client",
+      "agent"
     ],
     "license": "Miễn phí",
-    "category": "Drivers - Firmware",
+    "category": "Quản lý Doanh nghiệp",
     "alt": "",
     "alt_url": "",
-    "note": "Driver NVIDIA – miễn phí ✓",
+    "note": "VNeGP Client Agent là phần mềm hỗ trợ bắt buộc Hệ thống mạng đấu thầu quốc gia",
     "free_catalog": {
-      "desc": "Driver và phần mềm NVIDIA GeForce",
-      "url": "https://www.nvidia.com/download/index.aspx"
+      "desc": "thực hiện các chức năng ký số, mã hóa/giải mã và tải/upload hồ sơ trên Hệ thống mạng đấu thầu quốc gia",
+      "url": "https://muasamcong.mpi.gov.vn/web/guest/guideline-manual-investors",
+      "winget_id": ""
     }
   }
 ]
